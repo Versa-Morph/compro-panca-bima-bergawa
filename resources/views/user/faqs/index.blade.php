@@ -42,56 +42,51 @@
             <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse1">
-                  <a class="accordion-item__title" href="#">Which Plan Is Right For Me?</a>
+                  <a class="accordion-item__title" href="#">What is modular construction, and how does it differ from traditional construction?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse1" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Modular construction involves building sections (modules) of a structure in a factory setting and then transporting them to the site for assembly. This process is faster, more efficient, and often more cost-effective compared to traditional on-site construction.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse2">
-                  <a class="accordion-item__title" href="#">Do I have to commit to a contract?</a>
+                  <a class="accordion-item__title" href="#">How long does it take to complete a modular construction project?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse2" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Project timelines can vary depending on the size and complexity, but modular construction is typically faster than traditional methods. A project that might take 12-18 months can often be completed in half the time using modular techniques.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item opened">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse3">
-                  <a class="accordion-item__title" href="#">What Payment Methods Are Available?</a>
+                  <a class="accordion-item__title" href="#">What types of buildings can be constructed using modular methods?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse3" class="collapse show" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Modular construction is highly versatile and can be used for a wide range of buildings, including commercial spaces, residential homes, industrial facilities, healthcare centers, educational institutions, and hospitality buildings.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse4">
-                  <a class="accordion-item__title" href="#">What if I pick the wrong plan?</a>
+                  <a class="accordion-item__title" href="#">What are the benefits of modular construction?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse4" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>The key benefits include faster construction times, lower costs, improved quality control (due to factory production), reduced waste, and a minimized environmental impact. Modular construction is also highly flexible and scalable.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse5">
-                  <a class="accordion-item__title" href="#">Any contracts or commitments?</a>
+                  <a class="accordion-item__title" href="#">Are modular buildings as durable as traditionally constructed buildings?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse5" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Yes, modular buildings are built to meet or exceed the same codes and standards as traditional buildings. They are designed for durability and are often stronger due to the need to withstand transportation and installation.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
@@ -99,56 +94,51 @@
             <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse6">
-                  <a class="accordion-item__title" href="#">What are my payment options?</a>
+                  <a class="accordion-item__title" href="#">Can modular buildings be customized?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse6" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Absolutely! We offer a wide range of customization options, from layout and design to materials and finishes. Each project can be tailored to meet the specific needs and aesthetic preferences of the client.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse7">
-                  <a class="accordion-item__title" href="#">How does the free trial work?</a>
+                  <a class="accordion-item__title" href="#">How does the cost of modular construction compare to traditional construction?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse7" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Modular construction is often more cost-effective due to the reduced labor time and material waste. While upfront costs may be similar or slightly lower, the faster project completion can result in significant overall savings.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse8">
-                  <a class="accordion-item__title" href="#">What Payment Methods Are Available?</a>
+                  <a class="accordion-item__title" href="#">Do modular buildings meet local building codes and regulations?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse8" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Yes, all of our modular buildings are designed to comply with local building codes and regulations. We work closely with clients to ensure that all legal and safety requirements are met.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse9">
-                  <a class="accordion-item__title" href="#">How does the free trial work?</a>
+                  <a class="accordion-item__title" href="#">What is the environmental impact of modular construction?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse9" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>Modular construction is more environmentally friendly than traditional methods. By building in a controlled factory environment, we significantly reduce waste, energy use, and site disruption. We also prioritize the use of sustainable and energy-efficient materials.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
               <div class="accordion-item opened">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse10">
-                  <a class="accordion-item__title" href="#">If I have questions, where can I find answers? </a>
+                  <a class="accordion-item__title" href="#">What types of projects has PT Panca Bima Bergawa completed?</a>
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse10" class="collapse show" data-parent="#accordion">
                   <div class="accordion-item__body">
-                    <p>With any financial product that you buy, it is important that you know you are getting the best
-                      advice from a reputable company as often</p>
+                    <p>PT Panca Bima Bergawa has completed a wide range of modular projects, including commercial office spaces, residential developments, industrial warehouses, healthcare facilities, and more. Our portfolio showcases our expertise and innovation in the modular construction industry.</p>
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
@@ -362,9 +352,10 @@
                   <i class="icon-solar-panel"></i>
                 </div><!-- /.cta__icon -->
                 <div class="cta__body">
-                  <h4 class="cta__title">Design & Shipping</h4>
-                  <p class="cta__desc">We collaborate with you to design and deliver a system that meets your utility
-                    usage and selecting equips.</p>
+                  <h4 class="cta__title">Custom Design & Delivery</h4>
+                  <p class="cta__desc">
+                    We work closely with you to design and deliver modular solutions that meet your specific needs, ensuring that every detail aligns with your project requirements.
+                  </p>
                   <a href="#" class="btn btn__link btn__primary">
                     <i class="icon-arrow-right"></i>
                     <span>Schedule A Visit</span>
@@ -378,9 +369,10 @@
                   <i class="icon-energy"></i>
                 </div><!-- /.cta__icon -->
                 <div class="cta__body">
-                  <h4 class="cta__title">Design & Shipping</h4>
-                  <p class="cta__desc">Whether you want to install the system on your own or hire local contractors
-                    directly managing installation.</p>
+                  <h4 class="cta__title">Flexible Installation Options</h4>
+                  <p class="cta__desc">
+                    Choose between self-installation or working with local contractors to manage the installation process directly, giving you full control over how your modular units are set up.
+                  </p>
                   <a href="#" class="btn btn__link btn__primary">
                     <i class="icon-arrow-right"></i>
                     <span>Schedule A Visit</span>
@@ -391,9 +383,10 @@
           </div><!-- /.cta -->
           <div class="row">
             <div class="col-12">
-              <p class="text__link text-center mb-0">Discover independence through the power of solar,
+              <p class="text__link text-center mb-0">
+                Discover the possibilities of modular construction tailored to your needs.
                 <a href="#">
-                  <span>Explore Our Plans</span> <i class="icon-arrow-right"></i>
+                  <span>Explore Our Solutions Today!</span> <i class="icon-arrow-right"></i>
                 </a>
               </p>
             </div><!-- /.col-12 -->

@@ -33,8 +33,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
               <div class="heading-layout2 text-center mb-50">
-                <h2 class="heading__subtitle">A World Wide Distributor Of Solar Supplies</h2>
-                <h3 class="heading__title">We Are Ready For Solar Energy, All We Need Is To Use It Well!</h3>
+                <h2 class="heading__subtitle">A Global Leader in Modular Construction Solutions</h2>
+                <h3 class="heading__title">We Are Ready to Revolutionize the Construction Industry, All We Need Is to Build It Right!</h3>
               </div><!-- /.heading -->
             </div><!-- /.col-lg-8 -->
           </div><!-- /.row -->
@@ -47,8 +47,7 @@
                 </div><!-- /.feature-img -->
                 <div class="feature__body">
                   <h4 class="feature__title">Family Business Award</h4>
-                  <p class="feature__desc">We believe that partnerships are fundamental to our growth. We'll seek the
-                    highest quality global forwarding services.</p>
+                  <p class="feature__desc">We believe that strong partnerships are the key to our success. We collaborate with trusted global suppliers to deliver the highest quality modular solutions.</p>
                 </div><!-- /.feature-content -->
               </div><!-- /.feature-item -->
             </div><!-- /.col-lg-4 -->
@@ -60,8 +59,7 @@
                 </div><!-- /.feature-img -->
                 <div class="feature__body">
                   <h4 class="feature__title">Excellence in Exporting</h4>
-                  <p class="feature__desc">When we communicate, we are honest and direct. We won't make excuses, simply
-                    offer you a concrete solutions.</p>
+                  <p class="feature__desc">We are committed to transparent communication and integrity in every interaction. Our goal is to provide practical solutions without excuses.</p>
                 </div><!-- /.feature-content -->
               </div><!-- /.feature-item -->
             </div><!-- /.col-lg-4 -->
@@ -73,8 +71,7 @@
                 </div><!-- /.feature-img -->
                 <div class="feature__body">
                   <h4 class="feature__title">Top Leading Global Trade </h4>
-                  <p class="feature__desc">As a logistics solutions provider, we’ll monitor your logistical objectives and
-                    make sure all your logistical activities.</p>
+                  <p class="feature__desc">As experts in modular construction, we monitor every step of the process to ensure that your project’s logistics and execution are handled smoothly and efficiently.</p>
                 </div><!-- /.feature-content -->
               </div><!-- /.feature-item -->
             </div><!-- /.col-lg-4 -->
@@ -86,8 +83,7 @@
                 </div><!-- /.feature-img -->
                 <div class="feature__body">
                   <h4 class="feature__title">Sales Excellence Award</h4>
-                  <p class="feature__desc">We believe that partnerships are fundamental to our growth. We'll seek the
-                    highest quality global forwarding services.</p>
+                  <p class="feature__desc">Our growth is driven by long-term partnerships, ensuring that our clients receive top-quality service and support throughout their modular construction journey.</p>
                 </div><!-- /.feature-content -->
               </div><!-- /.feature-item -->
             </div><!-- /.col-lg-4 -->
@@ -99,8 +95,7 @@
                 </div><!-- /.feature-img -->
                 <div class="feature__body">
                   <h4 class="feature__title">Construction Excellence</h4>
-                  <p class="feature__desc">When we communicate, we are honest and direct. We won't make excuses, simply
-                    offer you a concrete solutions.</p>
+                  <p class="feature__desc">We pride ourselves on delivering honest, straightforward communication and reliable solutions, without compromises, ensuring the highest standards in construction.</p>
                 </div><!-- /.feature-content -->
               </div><!-- /.feature-item -->
             </div><!-- /.col-lg-4 -->
@@ -112,8 +107,7 @@
                 </div><!-- /.feature-img -->
                 <div class="feature__body">
                   <h4 class="feature__title">Safety Award</h4>
-                  <p class="feature__desc">As a logistics solutions provider, we’ll monitor your logistical objectives and
-                    make sure all your logistical activities.</p>
+                  <p class="feature__desc">Safety is at the heart of everything we do. We monitor and manage every logistical and operational aspect of our projects to ensure a safe and successful completion.</p>
                 </div><!-- /.feature-content -->
               </div><!-- /.feature-item -->
             </div><!-- /.col-lg-4 -->
@@ -130,7 +124,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="heading-layout2 heading-light mb-40">
-                <h2 class="heading__title">Providing Value To Our ClientsThrough Ongoing Product & Innovation.</h2>
+                <h2 class="heading__title">Delivering Value Through Continuous Innovation and Excellence</h2>
               </div><!-- /.heading -->
               <div class="row counter-light">
                 <div class="col-sm-6">
@@ -138,8 +132,7 @@
                     <h4 class="counter">6,154</h4>
                     <p class="counter__desc">Projects And Systems Completed in 2021</p>
                   </div>
-                  <p class="color-gray">Yet those that embrace change are thriving, building bigger, better, faster, and
-                    stronger products
+                  <p class="color-gray">At PT Panca Bima Bergawa, we understand that those who embrace change are thriving—building bigger, better, faster, and stronger modular solutions. We are committed to driving innovation in every project.
                   </p>
                   <ul class="list-items list-items-layout2 list-items-light list-unstyled">
                     <li>Download Brochures</li>
@@ -152,8 +145,7 @@
                     <h4 class="counter">2,419</h4>
                     <p class="counter__desc">Qualified Employees & Workers With Us</p>
                   </div>
-                  <p class="color-gray">You are helping lead the charge; we can help you build on your past and prepare
-                    future changing faster.
+                  <p class="color-gray">You are leading the charge in construction, and we’re here to help you build on past successes while preparing for a faster, brighter future.
                   </p>
                   <ul class="list-items list-items-layout2 list-items-light list-unstyled">
                     <li>Our Leadership Team</li>

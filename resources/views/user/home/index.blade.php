@@ -12,11 +12,9 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">Complete Commercial, Residential & Industrial Solar Systems</span>
-                    <h2 class="slide__title">We Invest In The Future Of Planet!</h2>
-                    <p class="slide__desc">As a world wide distributor of solar supplies we endeavor to provide fast and
-                      knowledgeable service, we can get you materials by sea or air.
-                    </p>
+                    <span class="slide__subtitle">Modular Solutions for Commercial, Residential & Industrial Projects</span>
+                    <h2 class="slide__title">Building the Future, One Module at a Time!</h2>
+                    <p class="slide__desc">As a leader in modular construction, we offer high-quality, customizable modular solutions for all types of projects. Our products are designed to be delivered swiftly and efficiently, whether for urban developments or remote locations.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -34,10 +32,29 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">Complete Commercial, Residential & Industrial Solar Systems</span>
-                    <h2 class="slide__title">Energize Society By Reliable Energy!</h2>
-                    <p class="slide__desc">As a world wide distributor of solar supplies we endeavor to provide fast and
-                      knowledgeable service, we can get you materials by sea or air.</p>
+                    <span class="slide__subtitle">Sustainable Modular Units for Every Industry</span>
+                    <h2 class="slide__title">Transforming Spaces with Quality and Innovation!</h2>
+                    <p class="slide__desc">We are committed to providing sustainable, high-performance modular units for commercial, residential, and industrial applications. Our global partnerships allow us to offer advanced modular solutions with rapid delivery and installation.</p>
+                    <div class="d-flex">
+                      <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
+                        <i class="icon-arrow-right"></i><span>More About Us</span>
+                      </a>
+                      <a href="{{ route('user.about-us') }}" class="btn btn__white">More About Us!</a>
+                    </div>
+                  </div><!-- /.slide__body -->
+                </div><!-- /.col-xl-8 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div><!-- /.slide-item -->
+          <div class="slide-item align-v-h bg-overlay">
+            <div class="bg-img"><img src="{{ asset('assets/images/sliders/3.jpg') }}" alt="slide img"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                  <div class="slide__body">
+                    <span class="slide__subtitle">High-Performance Modular Systems for All Needs</span>
+                    <h2 class="slide__title">Innovation Meets Efficiency in Every Unit!</h2>
+                    <p class="slide__desc">With exclusive access to the latest modular technology, we deliver reliable and cost-effective modular systems tailored to your project requirements. Experience unmatched quality and fast deployment for your construction needs.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -60,8 +77,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
               <div class="heading__layout2 mb-60">
-                <h2 class="heading__subtitle">Leading The Way In Building And Civil Construction</h2>
-                <h3 class="heading__title">We Are Ready For Solar Energy, All We Need Is To Use It Well!</h3>
+                <h2 class="heading__subtitle">Pioneering Modular Construction Across Industries</h2>
+                <h3 class="heading__title">We Are Ready for Modular Innovation, All We Need Is to Build It Right!</h3>
               </div><!-- /.heading__layout2 -->
             </div><!-- /.col-lg-7 -->
           </div><!-- /.row -->
@@ -70,19 +87,19 @@
               <!-- counter item #1 -->
               <div class="counter-item">
                 <h4 class="counter">6,154</h4>
-                <p class="counter__desc pr-0">Projects Completed In Last 5 Years</p>
+                <p class="counter__desc pr-0">Modules Delivered in the Last 5 Years</p>
                 <div class="divider__line"></div>
               </div>
               <!-- counter item #2 -->
               <div class="counter-item">
                 <h4 class="counter">2,512</h4>
-                <p class="counter__desc pr-0">Qualified Employees & Workers With Us</p>
+                <p class="counter__desc pr-0">Skilled Professionals & Craftsmen in Our Team</p>
                 <div class="divider__line"></div>
               </div>
               <!-- counter item #3 -->
               <div class="counter-item">
                 <h4 class="counter">0,241</h4>
-                <p class="counter__desc pr-0">Awards Milestones Awarded To Us</p>
+                <p class="counter__desc pr-0">Industry Awards & Recognitions</p>
                 <div class="divider__line"></div>
               </div>
             </div><!-- /.col-lg-2 -->
@@ -105,17 +122,15 @@
                 <div class="text__icon">
                   <i class="icon-green-energy3"></i>
                 </div>
-                <p class="heading__desc font-weight-medium color-secondary mb-30">We drive the transition to more
-                  sustainable, reliable, and affordable energy systems. With our innovative technologies, we energize
-                  society, that’s our aim!
+                <p class="heading__desc font-weight-medium color-secondary mb-30">
+                    We lead the shift towards more sustainable, efficient, and adaptable construction solutions. Through our advanced modular technologies, we build communities and drive progress—this is our mission!
                 </p>
-                <p class="heading__desc mb-20">The increase in extreme weather events and rising sea levels are
-                  unmistakable
-                  signs of climate change. Roughly 850 million people still live without access to electricity, which is
-                  the foundation of sustainable development.</p>
-                <p class="heading__desc mb-20">How can we meet the growing demand for electricity while protecting our
-                  climate
-                  and make planet a better place?</p>
+                <p class="heading__desc mb-20">
+                    The growing need for rapid urban development and the demand for sustainable infrastructure present unique challenges. Nearly a billion people still lack access to adequate housing, the cornerstone of social and economic development.
+                </p>
+                <p class="heading__desc mb-20">
+                    How can we meet the increasing demand for modern infrastructure while ensuring sustainability and making our world a better place?
+                </p>
                 <div class="d-flex align-items-center mt-30">
                   <a href="{{ route('user.service') }}" class="btn btn__secondary mr-30">
                     <i class="icon-arrow-right"></i> <span>Learn More</span>
@@ -136,16 +151,17 @@
         <div class="container">
           <div class="row mb-70">
             <div class="col-12">
-              <h2 class="heading__subtitle color-primary">Making Tomorrow Different Today.</h2>
+              <h2 class="heading__subtitle color-primary">Building a Better Future Today.</h2>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-5">
-              <h3 class="heading__title color-white">A Leading Supplier Of Solar Materials For Manufactuers, Installers &
-                Contractors.</h3>
+              <h3 class="heading__title color-white">
+                A Leading Provider of Modular Solutions for Developers, Builders & Contractors.
+              </h3>
             </div><!-- /col-lg-5 -->
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
-              <p class="heading__desc font-weight-bold color-gray mb-30">Our Solar business is focused on creating PV
-                material solutions
-                that reduce manufacturing costs, while improving the yield and performance of solar energy products. </p>
+                <p class="heading__desc font-weight-bold color-gray mb-30">
+                    Our modular expertise focuses on delivering innovative construction solutions that reduce project timelines, optimize costs, and enhance the overall performance of your developments.
+                </p>
               <div class="d-flex align-items-center">
                 <a href="{{ route('user.request-quote') }}" class="btn btn__primary btn__primary-style2 mr-30">
                   <i class="icon-arrow-right"></i>
@@ -168,9 +184,10 @@
                     <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Solar Panels</h4>
-                    <p class="service__desc">A PV module is an assembly of photo voltaic cells mounted in a framework for
-                      installation cells use sunlight as a source </p>
+                    <h4 class="service__title">Rapid Build Commercial Units</h4>
+                    <p class="service__desc">
+                        Perfect for businesses needing swift setups, our commercial units offer flexible designs that cater to retail, office spaces, and more—delivered and installed within weeks.
+                    </p>
                     <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
@@ -183,10 +200,10 @@
                     <img src="{{ asset('assets/images/services/2.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Wind Turbines</h4>
-                    <p class="service__desc">The smallest turbines used for applications such as battery charging for
-                      cells
-                      mounted in a framework auxiliary.</p>
+                    <h4 class="service__title">Residential Modular Homes</h4>
+                    <p class="service__desc">
+                        Tailored for modern living, our residential packages provide sustainable, energy-efficient homes that can be customized to suit any lifestyle or location.
+                    </p>
                     <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
@@ -199,9 +216,10 @@
                     <img src="{{ asset('assets/images/services/3.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Hydropower Plants</h4>
-                    <p class="service__desc">Hydroelectric power plants can include a reservoir to exploit the energy of
-                      falling water by the smallest turbines.</p>
+                    <h4 class="service__title">Industrial Modular Complexes</h4>
+                    <p class="service__desc">
+                        Designed for factories, warehouses, and industrial facilities, our modular complexes are built to withstand heavy usage while offering scalable and adaptable spaces.
+                    </p>
                     <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
@@ -214,9 +232,10 @@
                     <img src="{{ asset('assets/images/services/4.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Fossil Resources</h4>
-                    <p class="service__desc">Green chemistry is attracting interest as it provides clean and green
-                      technologies with used for applications.</p>
+                    <h4 class="service__title">Educational and Healthcare Facilities</h4>
+                    <p class="service__desc">
+                        Delivering high-quality, safe, and functional spaces for schools, clinics, and hospitals with rapid deployment to meet urgent community needs.
+                    </p>
                     <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
@@ -229,9 +248,10 @@
                     <img src="{{ asset('assets/images/services/5.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Battery Materials</h4>
-                    <p class="service__desc">Lithium batteries have become the battery type of choice in most applications
-                      due to the high energy </p>
+                    <h4 class="service__title">Hospitality and Leisure Units</h4>
+                    <p class="service__desc">
+                        From hotels to recreational facilities, our hospitality solutions offer aesthetically pleasing and functional spaces that enhance guest experiences.
+                    </p>
                     <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
@@ -244,9 +264,10 @@
                     <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Charge Controllers</h4>
-                    <p class="service__desc">Charge controllers regulate the rate of charge from your inverter to your
-                      battery bank just browse our controllers.</p>
+                    <h4 class="service__title">Remote and Offsite Solutions</h4>
+                    <p class="service__desc">
+                        Ideal for remote locations, our offsite packages provide all-in-one modular units designed for mining, oil & gas, and other industries operating in challenging environments.
+                    </p>
                     <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
@@ -259,11 +280,10 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
               <p class="read-note__text">
-                <strong class="color-white">We drive the transition to more sustainable, reliable &
-                  affordable energy systems, </strong>
-                <a href="#" class="text-underlined-primary color-primary font-weight-bold">
+                <strong class="color-white">We lead the shift towards more sustainable, reliable, and efficient building systems. Find the modular solution that meets your needs and helps build a better tomorrow. </strong>
+                {{-- <a href="#" class="text-underlined-primary color-primary font-weight-bold">
                   <span>Find Your Solution </span> <i class="icon-arrow-right"></i>
-                </a>
+                </a> --}}
               </p>
             </div><!-- /.col-lg-5 -->
           </div><!-- /.row -->
@@ -277,14 +297,13 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
-              <h2 class="heading__subtitle color-primary">Making Tomorrow Different Today.</h2>
-              <h3 class="heading__title">Energize Society With Sustainable And Reliable Energy Systems!</h3>
-              <p class="heading__desc mb-30">In recent years, new capacity across the solar value chain has
-                become
-                necessary to support the PV market’s growth. However, the capital required to establish and scale-up
-                wafer, solar cell and solar module manufacturing facilities is considerable. </p>
-              <p class="heading__desc mb-40">Together, these factors pose a serious challenge to sustainable operation and
-                growth of global solar manufacturers.</p>
+              <h2 class="heading__subtitle color-primary">Building Tomorrow Today.</h2>
+              <h3 class="heading__title">Transforming Construction with Sustainable and Innovative Modular Solutions!</h3>
+              <p class="heading__desc mb-30">
+                In recent years, the demand for efficient, high-quality modular solutions has surged. However, the capital and expertise required to establish and scale-up modular construction facilities are substantial. Together, these factors pose challenges to maintaining growth and sustainability in the modular construction industry.
+              </p>
+              {{-- <p class="heading__desc mb-40">Together, these factors pose a serious challenge to sustainable operation and
+                growth of global solar manufacturers.</p> --}}
               <a href="#" class="btn btn__primary btn__outlined btn__custom mb-40">
                 <i class="icon-arrow-right"></i>
                 <span>Explore All Features!</span>
@@ -298,9 +317,9 @@
                     <div class="feature__icon">
                       <i class="icon-hydro-power3"></i>
                     </div>
-                    <h4 class="feature__title">Save Your Money</h4>
-                    <p class="feature__desc">Save money on utilities or increase the value of your home by installing
-                      solar
+                    <h4 class="feature__title">Optimize Your Investment</h4>
+                    <p class="feature__desc">
+                        Save on construction costs and increase the value of your property with our cutting-edge modular solutions.
                     </p>
                   </div><!-- /.feature-item -->
                 </div><!-- /.col-sm-6 -->
@@ -310,9 +329,9 @@
                     <div class="feature__icon">
                       <i class="icon-biosphere"></i>
                     </div>
-                    <h4 class="feature__title">5Stars Customer Service</h4>
-                    <p class="feature__desc">Understand that we must go above our customer expectations during each
-                      interaction always.
+                    <h4 class="feature__title">5-Star Customer Service</h4>
+                    <p class="feature__desc">
+                        We are committed to exceeding customer expectations with every interaction, ensuring that our service is always top-notch.
                     </p>
                   </div><!-- /.feature-item -->
                 </div><!-- /.col-sm-6 -->
@@ -322,8 +341,9 @@
                     <div class="feature__icon">
                       <i class="icon-eco-house"></i>
                     </div>
-                    <h4 class="feature__title">Your Home Is Energy</h4>
-                    <p class="feature__desc">Everyday the sun provides us with abundance of free energy by placing solar
+                    <h4 class="feature__title">Innovative Modular Solutions</h4>
+                    <p class="feature__desc">
+                        Every project benefits from our extensive experience and commitment to delivering modular units that meet diverse needs, from residential to industrial applications.
                     </p>
                   </div><!-- /.feature-item -->
                 </div><!-- /.col-sm-6 -->
@@ -334,8 +354,8 @@
                       <i class="icon-energy2"></i>
                     </div>
                     <h4 class="feature__title">Consult & Planning</h4>
-                    <p class="feature__desc">Our remote industrial solar systems are designed to reliably power our
-                      clients
+                    <p class="feature__desc">
+                        Our team provides expert consultation and planning services, ensuring that your modular project is executed flawlessly and efficiently.
                     </p>
                   </div><!-- /.feature-item -->
                 </div><!-- /.col-sm-6 -->
@@ -345,8 +365,9 @@
                     <div class="feature__icon">
                       <i class="icon-electric-car"></i>
                     </div>
-                    <h4 class="feature__title">Certified Engineers</h4>
-                    <p class="feature__desc">Our sales engineers on our staff have experience and can design any complete
+                    <h4 class="feature__title">Certified Experts</h4>
+                    <p class="feature__desc">
+                        Our team of certified engineers and construction professionals brings years of experience, capable of designing and executing any modular project to perfection.
                     </p>
                   </div><!-- /.feature-item -->
                 </div><!-- /.col-sm-6 -->
@@ -357,7 +378,9 @@
                       <i class="icon-wind-socket"></i>
                     </div>
                     <h4 class="feature__title">Awards & <br> Milestones</h4>
-                    <p class="feature__desc">Benefiting from nearly 20 years experience.</p>
+                    <p class="feature__desc">
+                        With nearly 20 years of experience in the industry, we are proud of our track record of success and recognition in the modular construction field.
+                    </p>
                   </div><!-- /.feature-item -->
                 </div><!-- /.col-sm-6 -->
               </div><!-- /.row -->
@@ -374,15 +397,15 @@
         <div class="container">
           <div class="row mb-60">
             <div class="col-12">
-              <h2 class="heading__subtitle color-primary">Improving The Performance Of Solar Energy.</h2>
+              <h2 class="heading__subtitle color-primary">Elevating Modular Construction Excellence.</h2>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-5">
-              <h3 class="heading__title color-white">Latest Projects, Solutions And Energy Supplies</h3>
+              <h3 class="heading__title color-white">Latest Projects, Solutions, and Innovations</h3>
             </div><!-- /col-lg-5 -->
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
-              <p class="heading__desc font-weight-bold color-gray mb-30">With our innovative technologies, clear focus on
-                the needs of our
-                customers, and 1,210 dedicated employees, we energize society. Let’s make tomorrow different today! </p>
+              <p class="heading__desc font-weight-bold color-gray mb-30">
+                With our cutting-edge modular technologies, a clear focus on customer needs, and a dedicated team of 1,210 professionals, we are transforming the construction landscape. Let’s build a better future today!
+              </p>
               <a href="{{ route('user.service') }}" class="btn btn__white btn__outlined">
                 <i class="icon-arrow-right"></i>
                 <span>Our Core Values</span>
@@ -519,8 +542,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
               <div class="heading text-center mb-40">
-                <h2 class="heading__subtitle color-primary">Customers Doing it Their Way</h2>
-                <h3 class="heading__title">Our Customers Share Their Experiences & Insights</h3>
+                <h2 class="heading__subtitle color-primary">Clients Shaping Their Own Success</h2>
+                <h3 class="heading__title">Our Clients Share Their Experiences & Insights</h3>
               </div><!-- /.heading -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -649,9 +672,10 @@
                   <i class="icon-solar-panel"></i>
                 </div><!-- /.cta__icon -->
                 <div class="cta__body">
-                  <h4 class="cta__title">Design & Shipping</h4>
-                  <p class="cta__desc">We collaborate with you to design and deliver a system that meets your utility
-                    usage and selecting equips.</p>
+                  <h4 class="cta__title">Custom Design & Delivery</h4>
+                  <p class="cta__desc">
+                    We work closely with you to design and deliver modular solutions that meet your specific needs, ensuring that every detail aligns with your project requirements.
+                  </p>
                   <a href="#" class="btn btn__link btn__primary">
                     <i class="icon-arrow-right"></i>
                     <span>Schedule A Visit</span>
@@ -665,9 +689,10 @@
                   <i class="icon-energy"></i>
                 </div><!-- /.cta__icon -->
                 <div class="cta__body">
-                  <h4 class="cta__title">Design & Shipping</h4>
-                  <p class="cta__desc">Whether you want to install the system on your own or hire local contractors
-                    directly managing installation.</p>
+                  <h4 class="cta__title">Flexible Installation Options</h4>
+                  <p class="cta__desc">
+                    Choose between self-installation or working with local contractors to manage the installation process directly, giving you full control over how your modular units are set up.
+                  </p>
                   <a href="#" class="btn btn__link btn__primary">
                     <i class="icon-arrow-right"></i>
                     <span>Schedule A Visit</span>
@@ -678,9 +703,10 @@
           </div><!-- /.cta -->
           <div class="row">
             <div class="col-12">
-              <p class="text__link text-center mb-0">Discover independence through the power of solar,
+              <p class="text__link text-center mb-0">
+                Discover the possibilities of modular construction tailored to your needs.
                 <a href="#">
-                  <span>Explore Our Plans</span> <i class="icon-arrow-right"></i>
+                  <span>Explore Our Solutions Today!</span> <i class="icon-arrow-right"></i>
                 </a>
               </p>
             </div><!-- /.col-12 -->
@@ -698,12 +724,12 @@
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
               <div class="col-inner">
                 <div class="heading-layout2 heading-light mb-60">
-                  <h2 class="heading__subtitle">Save Money, Save The Environment!</h2>
-                  <h3 class="heading__title">Providing Value To Our ClientsThrough Ongoing Product & Innovation.
+                  <h2 class="heading__subtitle">Save Money, Build Sustainably!</h2>
+                  <h3 class="heading__title mb-0">
+                    Delivering Value Through Continuous Innovation and Excellence.
                   </h3>
-                  <p class="heading__desc">Our Solar business now provides the preferred channel to market for some of the
-                    world’s leading PV manufacturers and our solar professionals work jointly with partners on enhancing
-                    product features, lowering lead times and improving cash flow.
+                  <p class="heading__desc">
+                    At PT Panca Bima Bergawa, we provide top-tier modular solutions while partnering with leading industry manufacturers to enhance product features, streamline delivery times, and optimize project budgets. Our focus on innovation ensures we deliver exceptional value and performance.
                   </p>
                 </div><!-- /.heading -->
                 <div class="row fancybox-light">
@@ -714,7 +740,7 @@
                         <i class="icon-biosphere2"></i>
                       </div><!-- /.fancybox-icon -->
                       <div class="fancybox__content">
-                        <h4 class="fancybox__title mb-0">Environmental Sensitivity</h4>
+                        <h4 class="fancybox__title mb-0">Environmental Responsibility</h4>
                       </div><!-- /.fancybox-content -->
                     </div><!-- /.fancybox-item -->
                   </div><!-- /.col-sm-4 -->
@@ -725,7 +751,7 @@
                         <i class="icon-tube"></i>
                       </div><!-- /.fancybox-icon -->
                       <div class="fancybox__content">
-                        <h4 class="fancybox__title mb-0">Personalised Solutions</h4>
+                        <h4 class="fancybox__title mb-0">Customized Solutions</h4>
                       </div><!-- /.fancybox-content -->
                     </div><!-- /.fancybox-item -->
                   </div><!-- /.col-sm-4 -->
@@ -736,7 +762,7 @@
                         <i class="icon-electric-charge"></i>
                       </div><!-- /.fancybox-icon -->
                       <div class="fancybox__content">
-                        <h4 class="fancybox__title mb-0">Performance Measures</h4>
+                        <h4 class="fancybox__title mb-0">Performance Excellence</h4>
                       </div><!-- /.fancybox-content -->
                     </div><!-- /.fancybox-item -->
                   </div><!-- /.col-sm-4 -->
@@ -750,6 +776,9 @@
                   <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                       <h4 class="contact-panel__title">Request A Quote</h4>
+                      <p>
+                        Please fill out the form below to request a quote for our modular solutions. Our team will get in touch with you shortly to discuss your requirements.
+                      </p>
                     </div> <!-- /.col-lg-12 -->
                     <div class="col-sm-6">
                       <div class="form-group">
@@ -775,90 +804,79 @@
                           name="contact-address" required>
                       </div>
                     </div><!-- /.col-sm-6 -->
+                    <div class="col-sm-6">
+                        <span class="font-weight-bold color-heading">Project Type</span>
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="Commercial">Commercial</option>
+                          <option value="Residential">Residential</option>
+                          <option value="Industrial">Industrial</option>
+                          <option value="Educational">Educational</option>
+                          <option value="Healthcare">Healthcare</option>
+                          <option value="Hospitality">Hospitality</option>
+                        </select>
+                      </div>
+                    </div><!-- /.col-sm-6 -->
+                    <div class="col-sm-6">
+                        <span class="font-weight-bold color-heading">Modular Units Needed</span>
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="Office Spaces">Office Spaces</option>
+                          <option value="Homes">Homes</option>
+                          <option value="Warehouses">Warehouses</option>
+                          <option value="Classrooms">Classrooms</option>
+                          <option value="Clinics">Clinics</option>
+                          <option value="Hotels">Hotels</option>
+                        </select>
+                      </div>
+                    </div><!-- /.col-sm-6 -->
+                    <div class="col-sm-6">
+                        <span class="font-weight-bold color-heading">Project Location</span>
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="City" id="city"
+                            name="city">
+                        </div>
+                    </div><!-- /.col-sm-6 -->
+                    <div class="col-sm-6">
+                      <span class="font-weight-bold color-heading">Budget Range</span>
+                      <div class="form-group">
+                        <select class="form-control">
+                          <option value="Under $50,000">Under $50,000</option>
+                          <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                          <option value="$100,000 - $250,000">$100,000 - $250,000</option>
+                          <option value="$250,000 - $500,000">$250,000 - $500,000</option>
+                          <option value="Over $500,000">Over $500,000</option>
+                        </select>
+                      </div>
+                    </div><!-- /.col-sm-6 -->
+                    <div class="col-sm-12 mb-3">
+                      <span class="font-weight-bold color-heading">Estimated Timeline</span>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input type="month" class="form-control" placeholder="start_date" id="start_date"
+                            name="start_date">
+                        </div>
+                        <div class="col-md-6">
+                          <input type="month" class="form-control" placeholder="end_date" id="end_date"
+                            name="end_date">
+                        </div>
+                      </div>
+                    </div><!-- /.col-sm-6 -->
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <span class="font-weight-bold color-heading">Preferred Contact Method</span>
+
+                        <select class="form-control">
+                          <option value="all">All</option>
+                          <option value="Email">Email</option>
+                          <option value="phone">Phone</option>
+                        </select>
+                      </div>
+                    </div><!-- /.col-sm-6 -->
+
                     <div class="col-12">
-                      <span class="font-weight-bold color-heading d-block mb-15 mt-10">System Data</span>
-                    </div><!-- /.col-12 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">System Installer?</option>
-                          <option value="1">System Installer 1</option>
-                          <option value="1">System Installer 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">System Installer?</option>
-                          <option value="1">System Installer 1</option>
-                          <option value="1">System Installer 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Monthly electric usage ?</option>
-                          <option value="1">100</option>
-                          <option value="2">200</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Solar system type?</option>
-                          <option value="1">Solar system 1</option>
-                          <option value="2">Solar system 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Solar panels place?</option>
-                          <option value="1">Solar panels 1</option>
-                          <option value="2">Solar panels 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Materials on your roof?</option>
-                          <option value="1">Materials 1</option>
-                          <option value="2">Materials 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-12">
-                      <span class="font-weight-bold color-heading d-block mb-15 mt-10">Preferred Contact Method</span>
-                      <div class="d-flex">
-                        <div class="form-group input-radio mr-30">
-                          <label class="label-radio">All
-                            <input type="radio" name="contact" checked>
-                            <span class="radio-indicator"></span>
-                          </label>
-                        </div><!-- /.input-radio -->
-                        <div class="form-group input-radio mr-30">
-                          <label class="label-radio">Email
-                            <input type="radio" name="contact">
-                            <span class="radio-indicator"></span>
-                          </label>
-                        </div><!-- /.input-radio -->
-                        <div class="form-group input-radio">
-                          <label class="label-radio">Phone
-                            <input type="radio" name="contact">
-                            <span class="radio-indicator"></span>
-                          </label>
-                        </div><!-- /.input-radio -->
-                      </div>
-                      <button type="submit" class="btn btn__secondary btn__block">
-                        <i class="icon-arrow-right"></i> <span>Submit Request</span>
-                      </button>
-                      <div class="contact-result"></div>
-                    </div><!-- /.col-12 -->
+                      <button class="btn btn-success w-100" type="submit">Submit</button>
+                    </div>
                   </div><!-- /.row -->
                 </form>
               </div>
