@@ -7,7 +7,7 @@
     <section class="slider">
         <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0" data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
           <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-            <div class="bg-img"><img src="{{ asset('assets/images/sliders/1.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-1.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -27,7 +27,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay">
-            <div class="bg-img"><img src="{{ asset('assets/images/sliders/2.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-2.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -47,7 +47,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay">
-            <div class="bg-img"><img src="{{ asset('assets/images/sliders/3.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-3.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -105,7 +105,7 @@
             </div><!-- /.col-lg-2 -->
             <div class="col-sm-12 col-md-12 col-lg-5">
               <div class="video-banner-layout2">
-                <img src="{{ asset('assets/images/about/1.jpg') }}" alt="about" class="w-100">
+                <img src="{{ asset('assets/images/pbb-img/modular-inovation.jpg') }}" alt="about" class="w-100">
                 <div class="video-has-img">
                   <img src="{{ asset('assets/images/video/1.jpg') }}" alt="video">
                   <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
@@ -135,7 +135,7 @@
                   <a href="{{ route('user.service') }}" class="btn btn__secondary mr-30">
                     <i class="icon-arrow-right"></i> <span>Learn More</span>
                   </a>
-                  <img src="{{ asset('assets/images/about/singnture.png') }}" alt="singnture">
+                  {{-- <img src="{{ asset('assets/images/about/singnture.png') }}" alt="singnture"> --}}
                 </div>
               </div><!-- /.about__text -->
             </div><!-- /.col-lg-5 -->
@@ -181,7 +181,7 @@
                 <!-- service item #1 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/rapid-build.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Rapid Build Commercial Units</h4>
@@ -197,7 +197,7 @@
                 <!-- service item #2 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/services/2.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/residensial.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Residential Modular Homes</h4>
@@ -213,7 +213,7 @@
                 <!-- service item #3 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/services/3.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/industrial.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Industrial Modular Complexes</h4>
@@ -229,7 +229,7 @@
                 <!-- service item #4 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/services/4.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/education&healthcare.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Educational and Healthcare Facilities</h4>
@@ -245,7 +245,7 @@
                 <!-- service item #5 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/services/5.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/hospitaly.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Hospitality and Leisure Units</h4>
@@ -261,7 +261,7 @@
                 <!-- service item #6 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/remote.jpg') }}" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Remote and Offsite Solutions</h4>

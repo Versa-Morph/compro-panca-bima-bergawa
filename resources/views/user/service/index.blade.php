@@ -156,8 +156,10 @@
       <!-- ===========================
         contact layout 3
       ============================= -->
-      <section class="contact-layout3 pt-130 pb-0">
-        <div class="bg-img"><img src="{{ asset('assets/images/backgrounds/4.jpg') }}" alt="background"></div>
+      <section class="contact-layout3 pt-130 pb-0" style="background-color: #46a2da !important">
+        <div class="bg-img">
+            {{-- <img src="{{ asset('assets/images/backgrounds/4.jpg') }}" alt="background"> --}}
+        </div>
         <div class="container">
           <div class="contact-panel d-block p-0">
             <div class="row row-no-gutter">

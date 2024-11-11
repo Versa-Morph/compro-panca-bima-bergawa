@@ -1080,7 +1080,7 @@ select {
 }
 
 .bg-overlay-primary:before {
-  background-color: rgba(74, 171, 61, 0.85);
+  background-color: rgb(70 162 218);
 }
 
 .bg-overlay-primary-gradient:before {

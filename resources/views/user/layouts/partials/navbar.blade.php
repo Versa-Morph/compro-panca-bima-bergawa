@@ -53,7 +53,7 @@
     <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('user.home') }}">
-                <img src="{{ asset('assets/images/logo_pbb.png') }}" width="110" class="logo" alt="logo">
+                <img src="{{ asset('assets/images/logo-pbb_htllogo.png') }}" width="200" class="logo" alt="logo">
             </a>
 
             <button class="navbar-toggler" type="button">
