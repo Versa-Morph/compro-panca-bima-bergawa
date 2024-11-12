@@ -69,7 +69,7 @@
             </div><!-- /.col-lg-2 -->
             <div class="col-sm-12 col-md-12 col-lg-5">
               <div class="video-banner-layout2">
-                <img src="{{ asset('assets/images/about/1.jpg') }}" alt="about" class="w-100">
+                <img src="{{ asset('assets/images/pbb-img/modular-inovation.jpg') }}" alt="about" class="w-100">
                 <div class="video-has-img">
                   <img src="{{ asset('assets/images/video/1.jpg') }}" alt="video">
                   <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
@@ -99,7 +99,7 @@
                   <a href="{{ route('user.service') }}" class="btn btn__secondary mr-30">
                     <i class="icon-arrow-right"></i> <span>Learn More</span>
                   </a>
-                  <img src="{{ asset('assets/images/about/singnture.png') }}" alt="singnture">
+                  {{-- <img src="{{ asset('assets/images/about/singnture.png') }}" alt="singnture"> --}}
                 </div>
               </div><!-- /.about__text -->
             </div><!-- /.col-lg-5 -->
@@ -261,481 +261,153 @@
             </div><!-- /.col-lg-7 -->
             <div class="col-sm-12 col-md-12 col-lg-5">
               <div class="img-block">
-                <img src="{{ asset('assets/images/banners/1.png') }}" alt="banner">
+                <img src="{{ asset('assets/images/pbb-img/building.jpg') }}" alt="banner">
               </div><!-- /.img-block -->
             </div><!-- /.col-lg-5 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.Banner layout 1 -->
 
-      <!-- ===========================
-        portfolio layout1
-      ============================= -->
-      <section class="portfolio-layout1">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="heading-layout2 mb-40">
-                <h3 class="heading__title">Latest Projects</h3>
-              </div><!-- /.heading -->
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <!-- portfolio item #1 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Finance</a><a href="{{ route('user.projects.detail') }}">Supply Chain</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Expanding The Solar Supply Chain Finance Program</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #2 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/2.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Wind Energy</a><a href="{{ route('user.projects.detail') }}">Innovations</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Addressing Wind Energy Innovation Challenges</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #3 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/3.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Electric Vehicle</a><a href="{{ route('user.projects.detail') }}">Infrastructures</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Smarter Ways to Manage EV Charging Infrastructures</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #4 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/4.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Green Energy</a><a href="{{ route('user.projects.detail') }}">ECO</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">New Public Attitude Tracker Towards Renewable Energy</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #5 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/5.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Infrastructures</a><a href="{{ route('user.projects.detail') }}">Gas</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Dangerous Environmental Impacts of Natural Gas</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #6 -->
-            <div class="col-sm-6 col-md-6 col-lg-4">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/6.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Finance</a><a href="{{ route('user.projects.detail') }}">Supply Chain</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Expanding The Solar Supply Chain Finance Program</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #7 -->
-            <div class="col-sm-6 col-md-6 col-lg-4 portfolio-hidden">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Finance</a><a href="{{ route('user.projects.detail') }}">Supply Chain</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Expanding The Solar Supply Chain Finance Program</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #8 -->
-            <div class="col-sm-6 col-md-6 col-lg-4 portfolio-hidden">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/3.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Finance</a><a href="{{ route('user.projects.detail') }}">Supply Chain</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Expanding The Solar Supply Chain Finance Program</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-            <!-- portfolio item #9 -->
-            <div class="col-sm-6 col-md-6 col-lg-4 portfolio-hidden">
-              <div class="portfolio-item">
-                <div class="portfolio__img">
-                  <img src="{{ asset('assets/images/portfolio/grid/2.jpg') }}" alt="portfolio img">
-                </div><!-- /.portfolio-img -->
-                <div class="portfolio__body">
-                  <div class="portfolio__cat">
-                    <a href="{{ route('user.projects.detail') }}">Finance</a><a href="{{ route('user.projects.detail') }}">Supply Chain</a>
-                  </div><!-- /.portfolio-cat -->
-                  <h4 class="portfolio__title"><a href="{{ route('user.projects.detail') }}">Expanding The Solar Supply Chain Finance Program</a></h4>
-                </div><!-- /.portfolio__body -->
-              </div><!-- /.portfolio-item -->
-            </div><!-- /.col-lg-4 -->
-          </div><!-- /.row -->
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-              <button type="button" class="btn btn__primary btn__loadMore loadMoreportfolio">
-                <i class="icon-arrow-right"></i><span>Explore All Projects</span>
-              </button>
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.portfolio layout1 -->
-
-      <!-- ===========================
-        contact layout 2
-      ============================= -->
-      <section class="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient">
-        <div class="bg-img"><img src="{{ asset('assets/images/banners/2.jpg') }}" alt=""></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-              <div class="col-inner">
-                <div class="heading-layout2 heading-light mb-60">
-                  <h2 class="heading__subtitle">Save Money, Build Sustainably!</h2>
-                  <h3 class="heading__title mb-0">
-                    Delivering Value Through Continuous Innovation and Excellence.
-                  </h3>
-                  <p class="heading__desc">
-                    At PT Panca Bima Bergawa, we provide top-tier modular solutions while partnering with leading industry manufacturers to enhance product features, streamline delivery times, and optimize project budgets. Our focus on innovation ensures we deliver exceptional value and performance.
-                  </p>
-                </div><!-- /.heading -->
-                <div class="row fancybox-light">
-                  <!-- fancybox item #1 -->
-                  <div class="col-sm-4">
-                    <div class="fancybox-item">
-                      <div class="fancybox__icon">
-                        <i class="icon-biosphere2"></i>
-                      </div><!-- /.fancybox-icon -->
-                      <div class="fancybox__content">
-                        <h4 class="fancybox__title mb-0">Environmental Responsibility</h4>
-                      </div><!-- /.fancybox-content -->
-                    </div><!-- /.fancybox-item -->
-                  </div><!-- /.col-sm-4 -->
-                  <!-- fancybox item #2 -->
-                  <div class="col-sm-4">
-                    <div class="fancybox-item">
-                      <div class="fancybox__icon">
-                        <i class="icon-tube"></i>
-                      </div><!-- /.fancybox-icon -->
-                      <div class="fancybox__content">
-                        <h4 class="fancybox__title mb-0">Customized Solutions</h4>
-                      </div><!-- /.fancybox-content -->
-                    </div><!-- /.fancybox-item -->
-                  </div><!-- /.col-sm-4 -->
-                  <!-- fancybox item #3 -->
-                  <div class="col-sm-4">
-                    <div class="fancybox-item">
-                      <div class="fancybox__icon">
-                        <i class="icon-electric-charge"></i>
-                      </div><!-- /.fancybox-icon -->
-                      <div class="fancybox__content">
-                        <h4 class="fancybox__title mb-0">Performance Excellence</h4>
-                      </div><!-- /.fancybox-content -->
-                    </div><!-- /.fancybox-item -->
-                  </div><!-- /.col-sm-4 -->
-                </div><!-- /.row -->
-              </div>
-            </div><!-- /.col-xl-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-              <div class="contact-panel">
-                <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm"
-                  novalidate="novalidate">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <h4 class="contact-panel__title">Request A Quote</h4>
-                      <p>
-                        Please fill out the form below to request a quote for our modular solutions. Our team will get in touch with you shortly to discuss your requirements.
-                      </p>
-                    </div> <!-- /.col-lg-12 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
-                          required>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                          name="contact-email" required>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                          name="contact-phone">
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Address" id="contact-address"
-                          name="contact-address" required>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                        <span class="font-weight-bold color-heading">Project Type</span>
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="Commercial">Commercial</option>
-                          <option value="Residential">Residential</option>
-                          <option value="Industrial">Industrial</option>
-                          <option value="Educational">Educational</option>
-                          <option value="Healthcare">Healthcare</option>
-                          <option value="Hospitality">Hospitality</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                        <span class="font-weight-bold color-heading">Modular Units Needed</span>
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="Office Spaces">Office Spaces</option>
-                          <option value="Homes">Homes</option>
-                          <option value="Warehouses">Warehouses</option>
-                          <option value="Classrooms">Classrooms</option>
-                          <option value="Clinics">Clinics</option>
-                          <option value="Hotels">Hotels</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                        <span class="font-weight-bold color-heading">Project Location</span>
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="City" id="city"
-                            name="city">
-                        </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <span class="font-weight-bold color-heading">Budget Range</span>
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="Under $50,000">Under $50,000</option>
-                          <option value="$50,000 - $100,000">$50,000 - $100,000</option>
-                          <option value="$100,000 - $250,000">$100,000 - $250,000</option>
-                          <option value="$250,000 - $500,000">$250,000 - $500,000</option>
-                          <option value="Over $500,000">Over $500,000</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-12 mb-3">
-                      <span class="font-weight-bold color-heading">Estimated Timeline</span>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <input type="month" class="form-control" placeholder="start_date" id="start_date"
-                            name="start_date">
-                        </div>
-                        <div class="col-md-6">
-                          <input type="month" class="form-control" placeholder="end_date" id="end_date"
-                            name="end_date">
-                        </div>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-12">
-                      <div class="form-group">
-                        <span class="font-weight-bold color-heading">Preferred Contact Method</span>
-
-                        <select class="form-control">
-                          <option value="all">All</option>
-                          <option value="Email">Email</option>
-                          <option value="phone">Phone</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-
-                    <div class="col-12">
-                      <button class="btn btn-success w-100" type="submit">Submit</button>
-                    </div>
-                  </div><!-- /.row -->
-                </form>
-              </div>
-            </div><!-- /.col-xl-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.contact layout 2 -->
-
-      <!-- =====================
-           Clients
-        ======================== -->
-      <section class="clients clients-layout2 border-bottom py-0">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <div class="slick-carousel"
-                data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/1.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/2.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/3.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/4.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/5.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/6.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/3.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-                <div class="client">
-                  <a href="#"><img src="{{ asset('assets/images/clients/4.png') }}" alt="client"></a>
-                </div><!-- /.client -->
-              </div><!-- /.carousel -->
-            </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <strong class="text-center d-block mt-30">Receive an accurate quote within 3-5 days when you fill out the
-                form on this page. Or, give us a call:
-                <a href="tel:00201061245741" class="text-underlined-primary">(002) 01061245741</a>
-              </strong>
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.clients -->
-
-      <!-- ======================
-        Blog Grid
-      ========================= -->
-      <section class="post-grid pb-60">
+      <section class="services-layout1 pt-120 pb-90">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
               <div class="heading text-center mb-50">
-                <h2 class="heading__subtitle">News & Announcements</h2>
-                <h3 class="heading__title">Recent Articles</h3>
+                <h2 class="heading__subtitle">Pioneering the Future of Modular Construction</h2>
+                <h3 class="heading__title">A Trusted Provider of Comprehensive Modular Building Solutions for Construction, Design, and Installation.</h3>
               </div><!-- /.heading -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
           <div class="row">
-            <!-- Post Item #1 -->
+            <!-- service item #1 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="post-item">
-                <div class="post__img">
-                  <a href="{{ route('user.news.detail') }}">
-                    <img src="{{ asset('assets/images/blog/grid/1.jpg') }}" alt="post image" loading="lazy">
-                  </a>
-                  <span class="post__date">Jan 20, 2020</span>
-                </div><!-- /.post-img -->
-                <div class="post__body">
-                  <div class="post__meta d-flex align-items-center">
-                    <div class="post__cat">
-                      <a href="#">Oil & Gas</a><a href="#">Insights</a>
-                    </div><!-- /.post-meta-cat -->
-                    <a class="post__author" href="#">Mike Dooley</a>
-                  </div><!-- /.post-meta -->
-                  <h4 class="post__title"><a href="#">Filing Solar Power Permits in 2020? Consider the Following Important
-                      Factors
-                    </a></h4>
-                  <p class="post__desc">All of these factors are important to consider when permitting your solar system,
-                    and can help streamline your process. Take the time to consider...
-                  </p>
-                  <a href="{{ route('user.news.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
-                    <i class="icon-arrow-right"></i>
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Modular Construction Solutions</h4>
+                  <p class="service__desc">Design and production of high-quality modular units to meet specific client needs and project requirements.</p>
+                  <a href="{{ route('user.service.modular-construction') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.post-content -->
-              </div><!-- /.post-item -->
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
-            <!-- Post Item #2 -->
+            <!-- service item #2 -->
+            <!-- service item #1 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="post-item">
-                <div class="post__img">
-                  <a href="{{ route('user.news.detail') }}">
-                    <img src="{{ asset('assets/images/blog/grid/2.jpg') }}" alt="post image" loading="lazy">
-                  </a>
-                  <span class="post__date">Jan 20, 2020</span>
-                </div><!-- /.post-img -->
-                <div class="post__body">
-                  <div class="post__meta d-flex align-items-center">
-                    <div class="post__cat">
-                      <a href="#">Oil & Gas</a><a href="#">Insights</a>
-                    </div><!-- /.post-meta-cat -->
-                    <a class="post__author" href="#">Mike Dooley</a>
-                  </div><!-- /.post-meta -->
-                  <h4 class="post__title"><a href="#">Filing Solar Power Permits in 2020? Consider the Following Important
-                      Factors
-                    </a></h4>
-                  <p class="post__desc">Batteries are the most expensive part of a solar system. Between an
-                    appropriately-size battery bank and a battery-based inverter like the Outback Ra
-                  </p>
-                  <a href="{{ route('user.news.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
-                    <i class="icon-arrow-right"></i>
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Project Design & Planning &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                  <p class="service__desc">Comprehensive design and planning services, including architectural, engineering, and feasibility studies to ensure efficient and sustainable project execution.</p>
+                  <a href="{{ route('user.service.project-design') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.post-content -->
-              </div><!-- /.post-item -->
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
-            <!-- Post Item #3 -->
+            <!-- service item #2 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="post-item">
-                <div class="post__img">
-                  <a href="{{ route('user.news.detail') }}">
-                    <img src="{{ asset('assets/images/blog/grid/3.jpg') }}" alt="post image" loading="lazy">
-                  </a>
-                  <span class="post__date">Jan 20, 2020</span>
-                </div><!-- /.post-img -->
-                <div class="post__body">
-                  <div class="post__meta d-flex align-items-center">
-                    <div class="post__cat">
-                      <a href="#">Oil & Gas</a><a href="#">Insights</a>
-                    </div><!-- /.post-meta-cat -->
-                    <a class="post__author" href="#">Mike Dooley</a>
-                  </div><!-- /.post-meta -->
-                  <h4 class="post__title"><a href="#">Filing Solar Power Permits in 2020? Consider the Following Important
-                      Factors
-                    </a></h4>
-                  <p class="post__desc">Department of Energy, which is why we have funded six teams to improve
-                    technologies that will protect eagles sharing airspace with the new wind ...
-                  </p>
-                  <a href="{{ route('user.news.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
-                    <i class="icon-arrow-right"></i>
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/2.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Eco-Friendly & Sustainable Building Solutions</h4>
+                  <p class="service__desc">Use of environmentally friendly materials and practices, incorporating energy-efficient designs and renewable energy options.</p>
+                  <a href="{{ route('user.service.eco-friendly-building') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
                   </a>
-                </div><!-- /.post-content -->
-              </div><!-- /.post-item -->
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <!-- service item #3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/3.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Custom Modular Manufacturing</h4>
+                  <p class="service__desc">Production of custom modular units that meet international standards, offering flexibility in size, layout, and purpose to align with diverse project needs.</p>
+                  <a href="{{ route('user.service.custom-modular-manufacturing') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <!-- service item #4 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/4.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">On-Site Installation & Assembly</h4>
+                  <p class="service__desc">End-to-end installation and assembly services, including on-site support and quality control to ensure seamless integration of modular units.</p>
+                  <a href="{{ route('user.service.on-site-installation') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <!-- service item #5 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/5.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Turnkey Project Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                  <p class="service__desc">Full management of modular construction projects from concept through completion, including timelines, logistics, and coordination with other contractors.</p>
+                  <a href="{{ route('user.service.turnkey-project-management') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <!-- service item #6 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Supply Chain & Material Sourcing</h4>
+                  <p class="service__desc">Efficient procurement and sourcing of high-quality materials for modular construction, reducing lead times and maintaining strict quality standards.</p>
+                  <a href="{{ route('user.service.supply-chain-sourcing') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Consultation & Technical Support</h4>
+                  <p class="service__desc">Professional consultation and technical support throughout the project lifecycle to address client needs, from planning to post-construction maintenance.</p>
+                  <a href="{{ route('user.service.consultation-support') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section><!-- /.blog Grid -->
+      </section><!-- /.Services Layout 1 -->
 @endsection

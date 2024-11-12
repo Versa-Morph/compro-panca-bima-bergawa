@@ -90,13 +90,47 @@ Route::name('user.')->middleware(['web'])->group(function () {
         return view('user.careers.index');
     })->name('careers');
 
-    Route::get('/service', function() {
-        return view('user.service.index');
-    })->name('service');
+    Route::prefix('service')->group(function() {
+        Route::get('/', function() {
+            return view('user.service.index');
+        })->name('service');
 
-    Route::get('/service/detail', function() {
-        return view('user.service.detail');
-    })->name('service.detail');
+        Route::get('/detail', function() {
+            return view('user.service.detail');
+        })->name('service.detail');
+
+        Route::get('/modular-construction', function() {
+            return view('user.service.modular-construction-solutions', ['service' => 'Modular Construction Solutions']);
+        })->name('service.modular-construction');
+
+        Route::get('/project-design', function() {
+            return view('user.service.project-design-and-planning', ['service' => 'Project Design & Planning']);
+        })->name('service.project-design');
+
+        Route::get('/eco-friendly-building', function() {
+            return view('user.service.eco-friendly-building', ['service' => 'Eco-Friendly & Sustainable Building Solutions']);
+        })->name('service.eco-friendly-building');
+
+        Route::get('/custom-modular-manufacturing', function() {
+            return view('user.service.custom-modular-manufacturing', ['service' => 'Custom Modular Manufacturing']);
+        })->name('service.custom-modular-manufacturing');
+
+        Route::get('/on-site-installation', function() {
+            return view('user.service.on-site-installation', ['service' => 'On-Site Installation & Assembly']);
+        })->name('service.on-site-installation');
+
+        Route::get('/turnkey-project-management', function() {
+            return view('user.service.turnkey-project-management', ['service' => 'Turnkey Project Management']);
+        })->name('service.turnkey-project-management');
+
+        Route::get('/supply-chain-sourcing', function() {
+            return view('user.service.supply-chain-sourcing', ['service' => 'Supply Chain & Material Sourcing']);
+        })->name('service.supply-chain-sourcing');
+
+        Route::get('/consultation-support', function() {
+            return view('user.service.consultation-support', ['service' => 'Consultation & Technical Support']);
+        })->name('service.consultation-support');
+    });
 
     Route::get('/projects', function() {
         return view('user.projects.index');

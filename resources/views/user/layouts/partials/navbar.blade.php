@@ -75,10 +75,6 @@
                             </li>
 
                             <li class="nav__item">
-                                <a href="{{ route('user.how-it-works') }}" class="nav__item-link {{ request()->routeIs('user.how-it-works') ? 'active' : '' }}">How It Works</a>
-                            </li>
-
-                            <li class="nav__item">
                                 <a href="{{ route('user.team') }}" class="nav__item-link {{ request()->routeIs('user.team') ? 'active' : '' }}">Leadership Team</a>
                             </li>
 
@@ -93,23 +89,27 @@
                             <li class="nav__item">
                                 <a href="{{ route('user.gallery') }}" class="nav__item-link {{ request()->routeIs('user.gallery') ? 'active' : '' }}">Our Gallery</a>
                             </li>
-
-                            <li class="nav__item">
-                                <a href="{{ route('user.careers') }}" class="nav__item-link {{ request()->routeIs('user.careers') ? 'active' : '' }}">Careers</a>
-                            </li>
                         </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="{{ route('user.how-it-works') }}" class="nav__item-link {{ request()->routeIs('user.how-it-works') ? 'active' : '' }}">How It Works</a>
                     </li>
 
                     <li class="nav__item">
                         <a href="{{ route('user.service') }}" class="nav__item-link {{ request()->routeIs('user.service') ? 'active' : '' }}">Services</a>
                     </li>
 
-                    <li class="nav__item">
+                    {{-- <li class="nav__item">
                         <a href="{{ route('user.projects') }}" class="nav__item-link {{ request()->routeIs('user.projects') ? 'active' : '' }}">Projects</a>
-                    </li>
+                    </li> --}}
 
                     <li class="nav__item">
                         <a href="{{ route('user.news') }}" class="nav__item-link {{ request()->routeIs('user.news') ? 'active' : '' }}">News</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="{{ route('user.careers') }}" class="nav__item-link {{ request()->routeIs('user.careers') ? 'active' : '' }}">Careers</a>
                     </li>
 
                     <li class="nav__item">

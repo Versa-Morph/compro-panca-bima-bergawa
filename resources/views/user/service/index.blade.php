@@ -40,9 +40,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
               <div class="heading text-center mb-50">
-                <h2 class="heading__subtitle">Fostering the Growth of Solar Energy Market</h2>
-                <h3 class="heading__title">A Leading Supplier Of Solar Materials For Manufacturers, Installers &
-                  Contractors.</h3>
+                <h2 class="heading__subtitle">Pioneering the Future of Modular Construction</h2>
+                <h3 class="heading__title">A Trusted Provider of Comprehensive Modular Building Solutions for Construction, Design, and Installation.</h3>
               </div><!-- /.heading -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -54,10 +53,26 @@
                   <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Solar Panels</h4>
-                  <p class="service__desc">A PV module is an assembly of photo voltaic cells mounted in a framework for
-                    installation cells use sunlight as a source </p>
-                  <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Modular Construction Solutions</h4>
+                  <p class="service__desc">Design and production of high-quality modular units to meet specific client needs and project requirements.</p>
+                  <a href="{{ route('user.service.modular-construction') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <!-- service item #2 -->
+            <!-- service item #1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Project Design & Planning &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                  <p class="service__desc">Comprehensive design and planning services, including architectural, engineering, and feasibility studies to ensure efficient and sustainable project execution.</p>
+                  <a href="{{ route('user.service.project-design') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -71,10 +86,9 @@
                   <img src="{{ asset('assets/images/services/2.jpg') }}" alt="service" loading="lazy">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Wind Turbines</h4>
-                  <p class="service__desc">The smallest turbines used for applications such as battery charging for cells
-                    mounted in a framework auxiliary.</p>
-                  <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Eco-Friendly & Sustainable Building Solutions</h4>
+                  <p class="service__desc">Use of environmentally friendly materials and practices, incorporating energy-efficient designs and renewable energy options.</p>
+                  <a href="{{ route('user.service.eco-friendly-building') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -88,10 +102,9 @@
                   <img src="{{ asset('assets/images/services/3.jpg') }}" alt="service" loading="lazy">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Hydropower Plants</h4>
-                  <p class="service__desc">Hydroelectric power plants can include a reservoir to exploit the energy of
-                    falling water by the smallest turbines.</p>
-                  <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Custom Modular Manufacturing</h4>
+                  <p class="service__desc">Production of custom modular units that meet international standards, offering flexibility in size, layout, and purpose to align with diverse project needs.</p>
+                  <a href="{{ route('user.service.custom-modular-manufacturing') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -105,10 +118,9 @@
                   <img src="{{ asset('assets/images/services/4.jpg') }}" alt="service" loading="lazy">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Fossil Resources</h4>
-                  <p class="service__desc">Green chemistry is attracting interest as it provides clean and green
-                    technologies with used for applications.</p>
-                  <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">On-Site Installation & Assembly</h4>
+                  <p class="service__desc">End-to-end installation and assembly services, including on-site support and quality control to ensure seamless integration of modular units.</p>
+                  <a href="{{ route('user.service.on-site-installation') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -122,10 +134,9 @@
                   <img src="{{ asset('assets/images/services/5.jpg') }}" alt="service" loading="lazy">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Battery Materials</h4>
-                  <p class="service__desc">Lithium batteries have become the battery type of choice in most applications
-                    due to the high energy </p>
-                  <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Turnkey Project Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                  <p class="service__desc">Full management of modular construction projects from concept through completion, including timelines, logistics, and coordination with other contractors.</p>
+                  <a href="{{ route('user.service.turnkey-project-management') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -139,10 +150,24 @@
                   <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Charge Controllers</h4>
-                  <p class="service__desc">Charge controllers regulate the rate of charge from your inverter to your
-                    battery bank just browse our controllers.</p>
-                  <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Supply Chain & Material Sourcing</h4>
+                  <p class="service__desc">Efficient procurement and sourcing of high-quality materials for modular construction, reducing lead times and maintaining strict quality standards.</p>
+                  <a href="{{ route('user.service.supply-chain-sourcing') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.service__body -->
+              </div><!-- /.service-item -->
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="service-item">
+                <div class="service__img">
+                  <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                </div><!-- /.service__img -->
+                <div class="service__body">
+                  <h4 class="service__title">Consultation & Technical Support</h4>
+                  <p class="service__desc">Professional consultation and technical support throughout the project lifecycle to address client needs, from planning to post-construction maintenance.</p>
+                  <a href="{{ route('user.service.consultation-support') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -152,221 +177,6 @@
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.Services Layout 1 -->
-
-      <!-- ===========================
-        contact layout 3
-      ============================= -->
-      <section class="contact-layout3 pt-130 pb-0" style="background-color: #46a2da !important">
-        <div class="bg-img">
-            {{-- <img src="{{ asset('assets/images/backgrounds/4.jpg') }}" alt="background"> --}}
-        </div>
-        <div class="container">
-          <div class="contact-panel d-block p-0">
-            <div class="row row-no-gutter">
-              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <div class="bg-img"><img src="{{ asset('assets/images/banners/6.jpg') }}" alt="background"></div>
-                <div class="contact-panel__banner d-flex flex-column justify-content-between h-100">
-                  <div class="testimonials-wrapper testimonials-light mb-50">
-                    <strong class="d-block color-white mb-30">Satisfied Users Over The Globe!</strong>
-                    <div class="slick-carousel" data-slick='{"slidesToShow": 1, "arrows": false, "dots": false}'>
-                      <!-- Testimonial #1 -->
-                      <div class="testimonial-item">
-                        <h4 class="testimonial__desc">They were fantastic through the entire purchase process. I had
-                          lots
-                          of
-                          questions and they were patient. My system arrived it was well packed and shipping with xpo.
-                        </h4>
-                        <div class="testimonial__meta d-flex flex-wrap align-items-center">
-                          <div class="testimonial__thumb">
-                            <img src="{{ asset('assets/images/testimonials/thumbs/1.png') }}" alt="thumb">
-                          </div><!-- /.testimonial__thumb -->
-                          <div>
-                            <h4 class="testimonial__meta-title">Ahmed Abdallah</h4>
-                            <p class="testimonial__meta-desc">Front End Developer</p>
-                          </div>
-                        </div><!-- /.testimonial-meta -->
-                      </div><!-- /. testimonial-item -->
-                      <!-- Testimonial #2 -->
-                      <div class="testimonial-item">
-                        <h4 class="testimonial__desc">They helped lead me through the process of system selection, site
-                          layout
-                          and placing my order. They were very knowledgeable and has provided guidance each step.
-                        </h4>
-                        <div class="testimonial__meta d-flex flex-wrap align-items-center">
-                          <div class="testimonial__thumb">
-                            <img src="{{ asset('assets/images/testimonials/thumbs/2.png') }}" alt="thumb">
-                          </div><!-- /.testimonial__thumb -->
-                          <div>
-                            <h4 class="testimonial__meta-title">John Peter</h4>
-                            <p class="testimonial__meta-desc">pro systems</p>
-                          </div>
-                        </div><!-- /.testimonial-meta -->
-                      </div><!-- /. testimonial-item -->
-                    </div><!-- /.carousel -->
-                  </div><!-- /.testimonials-wrapper -->
-                  <div class="clients-wrapper clients-light">
-                    <strong class="d-block color-white mb-30">Our Trusted Clients</strong>
-                    <div class="slick-carousel"
-                      data-slick='{"slidesToShow": 3, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 3}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/1.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/2.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/3.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/4.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/5.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/6.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/3.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                      <div class="client">
-                        <a href="#"><img src="{{ asset('assets/images/clients/4.png') }}" alt="client"></a>
-                      </div><!-- /.client -->
-                    </div><!-- /.carousel -->
-                  </div><!-- /.clients-wrapper -->
-                </div>
-              </div><!-- /.col-xl-6 -->
-              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <form class="contact-panel__form" method="post" action="#!" id="contactForm" novalidate="novalidate">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <h4 class="contact-panel__title">Request A Quote</h4>
-                    </div> <!-- /.col-lg-12 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
-                          required>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                          name="contact-email" required>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                          name="contact-phone">
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Address" id="contact-address"
-                          name="contact-address" required>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-12">
-                      <span class="font-weight-bold color-heading d-block mb-15 mt-10">System Data</span>
-                    </div><!-- /.col-12 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">System Installer?</option>
-                          <option value="1">System Installer 1</option>
-                          <option value="1">System Installer 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">System Installer?</option>
-                          <option value="1">System Installer 1</option>
-                          <option value="1">System Installer 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Monthly electric usage ?</option>
-                          <option value="1">100</option>
-                          <option value="2">200</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Solar system type?</option>
-                          <option value="1">Solar system 1</option>
-                          <option value="2">Solar system 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Solar panels place?</option>
-                          <option value="1">Solar panels 1</option>
-                          <option value="2">Solar panels 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <select class="form-control">
-                          <option value="0">Materials on your roof?</option>
-                          <option value="1">Materials 1</option>
-                          <option value="2">Materials 2</option>
-                        </select>
-                      </div>
-                    </div><!-- /.col-sm-6 -->
-                    <div class="col-12">
-                      <span class="font-weight-bold color-heading d-block mb-15 mt-10">Preferred Contact Method</span>
-                      <div class="d-flex">
-                        <div class="form-group input-radio mr-30">
-                          <label class="label-radio">All
-                            <input type="radio" name="contact" checked>
-                            <span class="radio-indicator"></span>
-                          </label>
-                        </div><!-- /.input-radio -->
-                        <div class="form-group input-radio mr-30">
-                          <label class="label-radio">Email
-                            <input type="radio" name="contact">
-                            <span class="radio-indicator"></span>
-                          </label>
-                        </div><!-- /.input-radio -->
-                        <div class="form-group input-radio">
-                          <label class="label-radio">Phone
-                            <input type="radio" name="contact">
-                            <span class="radio-indicator"></span>
-                          </label>
-                        </div><!-- /.input-radio -->
-                      </div>
-                      <button type="submit" class="btn btn__primary btn__block">
-                        <i class="icon-arrow-right"></i> <span>Submit Request</span>
-                      </button>
-                      <div class="contact-result"></div>
-                    </div><!-- /.col-12 -->
-                  </div><!-- /.row -->
-                </form>
-              </div><!-- /.col-xl-6 -->
-            </div><!-- /.row -->
-          </div><!-- /.contact-panel -->
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-              <p class="text__link text-center color-white mt-40 mb-40">Receive an accurate quote within 3-5 days when you
-                fill out the form on this page. Or, give us a call:
-                <a href="#" class="color-heading">
-                  (002) 01061245741
-                </a>
-              </p>
-            </div><!-- /.col-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </section><!-- /.contact layout 3 -->
 
       <!-- ======================
       Features Layout 2
