@@ -5,7 +5,7 @@
        page title
     =========================== -->
     <section class="page-title page-title-layout2 bg-overlay bg-overlay-2 bg-parallax">
-        <div class="bg-img"><img src="assets/images/page-titles/13.jpg" alt="background"></div>
+        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-1.jpg') }}" alt="background"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -115,16 +115,16 @@
                 <!-- gallery item #1 -->
                 <div class="col-sm-6">
                   <div class="gallery-item">
-                    <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/4.jpg') }}">
-                      <img src="{{ asset('assets/images/gallery/4.jpg') }}" alt="gallery img">
+                    <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-1.jpg') }}">
+                      <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-4.jpg') }}" alt="gallery img">
                     </a>
                   </div><!-- /.gallery-item -->
                 </div><!-- /.col-sm-6 -->
                 <!-- gallery item #2 -->
                 <div class="col-sm-6">
                   <div class="gallery-item">
-                    <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/5.jpg') }}">
-                      <img src="{{ asset('assets/images/gallery/5.jpg') }}" alt="gallery img">
+                    <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}">
+                      <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}" alt="gallery img">
                     </a>
                   </div><!-- /.gallery-item -->
                 </div><!-- /.col-sm-6 -->
@@ -136,7 +136,7 @@
                 <p class="text__block-desc">After design approval, our team moves to production, where each module is built in our factory with strict quality control measures. Once complete, the modules are transported to the project site for quick and easy assembly, drastically reducing construction time and on-site disruption.</p>
               </div>
               <div class="video-banner mb-70">
-                <img src="{{ asset('assets/images/banners/8.jpg') }}" alt="banner">
+                <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-3.jpg') }}" alt="banner">
                 {{-- <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                   <div class="video__player">
                     <i class="fa fa-play"></i>

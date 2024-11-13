@@ -283,7 +283,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Modular Construction Solutions</h4>
@@ -300,7 +300,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/1.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/project-design-planning-2.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Project Design & Planning &nbsp;&nbsp;&nbsp;&nbsp;</h4>
@@ -316,7 +316,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/2.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/eco-friendly-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Eco-Friendly & Sustainable Building Solutions</h4>
@@ -332,7 +332,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/3.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-1.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Custom Modular Manufacturing</h4>
@@ -348,7 +348,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/4.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/on-site-installation-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">On-Site Installation & Assembly</h4>
@@ -364,7 +364,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/5.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/turnkey-project-management-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Turnkey Project Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
@@ -380,7 +380,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/supply-chain-3.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Supply Chain & Material Sourcing</h4>
@@ -395,7 +395,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/services/6.jpg') }}" alt="service" loading="lazy">
+                  <img src="{{ asset('assets/images/pbb-img/service/consultation-support-3.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Consultation & Technical Support</h4>
