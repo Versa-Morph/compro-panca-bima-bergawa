@@ -29,7 +29,12 @@
       ========================= -->
       <section class="post-grid">
         <div class="container">
-          <div class="row">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-secondary text-center">Regrettably, there are no new articles available in our Blog at this time.</h5>
+                </div>
+            </div>
+          {{-- <div class="row">
             <!-- Post Item #1 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="post-item">
@@ -215,7 +220,7 @@
                 </ul>
               </nav><!-- .pagination-area -->
             </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
+          </div><!-- /.row --> --}}
         </div><!-- /.container -->
       </section><!-- /.blog Grid -->
 @endsection

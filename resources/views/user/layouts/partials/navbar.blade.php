@@ -7,11 +7,11 @@
                         <ul class="contact__list d-flex flex-wrap align-items-center list-unstyled mb-0">
                             <li>
                                 <i class="icon-mail"></i>
-                                <a href="mailto:Solatec@7oroof.com">Email: Solatec@7oroof.com</a>
+                                <a href="mailto:marketing@bimabergawa.com">Email: marketing@bimabergawa.com</a>
                             </li>
                             <li>
                                 <i class="icon-clock"></i>
-                                <a href="{{ route('user.contact') }}">Mon - Fri: 8:00 am - 7:00 pm</a>
+                                <a href="{{ route('user.contact') }}">Mon - Sat: 8:00 am - 6:00 pm</a>
                             </li>
                             <li>
                                 <i class="icon-location color-primary"></i>
@@ -66,7 +66,7 @@
                         <a href="{{ route('user.home') }}" class="nav__item-link {{ request()->routeIs('user.home') ? 'active' : '' }}">Home</a>
                     </li>
                     <li class="nav__item has-dropdown">
-                        <a href="{{ route('user.about-us') }}" class="nav__item-link {{ request()->routeIs(['user.about-us', 'user.how-it-works', 'user.team', 'user.awards', 'user.faqs', 'user.gallery', 'user.careers']) ? 'active' : '' }}">Company</a>
+                        <a href="{{ route('user.about-us') }}" class="nav__item-link {{ request()->routeIs(['user.about-us', 'user.team', 'user.awards', 'user.faqs', 'user.gallery']) ? 'active' : '' }}">Company</a>
                         <button class="dropdown-toggle" data-toggle="dropdown"></button>
 
                         <ul class="dropdown-menu">
@@ -122,7 +122,7 @@
 
             <div class="contact__number d-none d-xl-flex align-items-center">
                 <i class="icon-phone"></i>
-                <a href="tel:5565454117">55 654 541 17</a>
+                <a href="#!">+62 852 1308 8243</a>
             </div>
 
             <ul class="navbar-actions d-none d-xl-flex align-items-center list-unstyled mb-0">

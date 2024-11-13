@@ -106,7 +106,7 @@
             <div class="col-sm-12 col-md-12 col-lg-5">
               <div class="video-banner-layout2">
                 <img src="{{ asset('assets/images/pbb-img/modular-inovation.jpg') }}" alt="about" class="w-100">
-                <div class="video-has-img">
+                {{-- <div class="video-has-img">
                   <img src="{{ asset('assets/images/video/1.jpg') }}" alt="video">
                   <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
@@ -114,7 +114,7 @@
                     </div>
                   </a>
                   <span class="video__btn-title">Watch Our Intro!</span>
-                </div>
+                </div> --}}
               </div><!-- /.video-banner -->
             </div><!-- /.col-lg-5 -->
             <div class="col-sm-12 col-md-12 col-lg-5">

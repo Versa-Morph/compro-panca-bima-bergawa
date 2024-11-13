@@ -76,16 +76,13 @@
                   <div class="bg-img"><img src="{{ asset('assets/images/banners/7.jpg') }}" alt="banner"></div>
                   <div class="widget__content">
                     <h5 class="widget__title">Dedicated Customer Teams & Agile Services</h5>
-                    <p class="widget__desc mb-30">Our worldwide presence ensures the timeliness, cost efficiency
-                      compliance
-                      adherence required to ensure your production timelines are met.
-                    </p>
+                    <p class="widget__desc mb-30">Our strong local presence ensures timely, cost-effective solutions and strict quality adherence, so your construction timelines are met seamlessly and efficiently.</p>
                     <a href="{{ route('user.request-quote') }}" class="btn btn__white btn__outlined btn__block mb-30">
                       Schedule An Appointment
                     </a>
                     <div class="contact__number d-none d-xl-flex align-items-center">
                       <i class="icon-phone"></i>
-                      <a href="tel:5565454117">55 654 541 17</a>
+                      <a href="#!">+62 852 1308 8243</a>
                     </div>
                   </div><!-- /.widget-download -->
                 </div><!-- /.widget-help -->
@@ -97,7 +94,11 @@
                       <img src="{{ asset('assets/images/icons/pdf.png') }}" alt="pdf">
                     </a>
                     <a href="#" class="btn btn__secondary btn__block btn__hover3">
-                      <span>Company Brochure</span>
+                      <span>Modular Brochure</span>
+                      <img src="{{ asset('assets/images/icons/pdf.png') }}" alt="pdf">
+                    </a>
+<a href="#" class="btn btn__secondary btn__block btn__hover3">
+                      <span>Spare part Brochure</span>
                       <img src="{{ asset('assets/images/icons/pdf.png') }}" alt="pdf">
                     </a>
                   </div><!-- /.widget-content -->

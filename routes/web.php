@@ -115,9 +115,9 @@ Route::name('user.')->middleware(['web'])->group(function () {
             return view('user.service.custom-modular-manufacturing', ['service' => 'Custom Modular Manufacturing']);
         })->name('service.custom-modular-manufacturing');
 
-        Route::get('/on-site-installation', function() {
-            return view('user.service.on-site-installation', ['service' => 'On-Site Installation & Assembly']);
-        })->name('service.on-site-installation');
+        Route::get('/supervise-installation-and-assembly', function() {
+            return view('user.service.supervise-installation-and-assembly', ['service' => 'Supervise Installation & Assembly']);
+        })->name('service.supervise-installation-and-assembly');
 
         Route::get('/turnkey-project-management', function() {
             return view('user.service.turnkey-project-management', ['service' => 'Turnkey Project Management']);

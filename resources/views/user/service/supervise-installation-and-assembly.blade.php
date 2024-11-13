@@ -62,7 +62,7 @@
                         <a href="{{ route('user.service.custom-modular-manufacturing') }}"><span>Custom Modular Manufacturing</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.on-site-installation') }}"><span>On-Site Installation & Assembly</span></a>
+                        <a href="{{ route('user.service.supervise-installation-and-assembly') }}"><span>Supervise Installation & Assembly</span></a>
                       </li>
                       <li>
                         <a href="{{ route('user.service.turnkey-project-management') }}"><span>Turnkey Project Management</span></a>
@@ -80,24 +80,25 @@
                   <div class="bg-img"><img src="{{ asset('assets/images/banners/7.jpg') }}" alt="banner"></div>
                   <div class="widget__content">
                     <h5 class="widget__title">Dedicated Customer Teams & Agile Services</h5>
-                    <p class="widget__desc mb-30">Our worldwide presence ensures the timeliness, cost efficiency
-                      compliance
-                      adherence required to ensure your production timelines are met.
-                    </p>
-                    <a href="request-quote.html" class="btn btn__white btn__outlined btn__block mb-30">
+                    <p class="widget__desc mb-30">Our strong local presence ensures timely, cost-effective solutions and strict quality adherence, so your construction timelines are met seamlessly and efficiently.</p>
+                    <a href="{{ route('user.request-quote') }}" class="btn btn__white btn__outlined btn__block mb-30">
                       Schedule An Appointment
                     </a>
                     <div class="contact__number d-none d-xl-flex align-items-center">
                       <i class="icon-phone"></i>
-                      <a href="tel:5565454117">55 654 541 17</a>
+                      <a href="#!">+62 852 1308 8243</a>
                     </div>
                   </div><!-- /.widget-download -->
                 </div><!-- /.widget-help -->
                 <div class="widget widget-download">
                   <h5 class="widget__title">Download</h5>
                   <div class="widget__content">
-                    <a href="#" class="btn btn__secondary btn__block btn__hover3">
-                      <span>Company Brochure</span>
+                    <a href="{{ asset('assets/images/pbb-img/service/Modular_Brochure_PT_PANCA_BIMA_BERGAWA .pdf') }}" target="_blank" class="btn btn__secondary btn__block btn__hover3">
+                      <span>Modular Brochure</span>
+                      <img src="{{ asset('assets/images/icons/pdf.png') }}" alt="pdf">
+                    </a>
+                    <a href="{{ asset('assets/images/pbb-img/service/Spare_part_Brochure_Panca_Bima_Bergawa.pdf') }}" target="_blank" class="btn btn__secondary btn__block btn__hover3 mt-3">
+                      <span>Spare part Brochure</span>
                       <img src="{{ asset('assets/images/icons/pdf.png') }}" alt="pdf">
                     </a>
                   </div><!-- /.widget-content -->
@@ -107,8 +108,7 @@
             <div class="col-sm-12 col-md-12 col-lg-8">
               <div class="text__block mb-30">
                 <h5 class="text__block-title">Overview</h5>
-                <p class="text__block-desc">Our On-Site Installation & Assembly service ensures that your modular units are swiftly and securely assembled on-site, guaranteeing the timely and efficient completion of your project. Our experienced installation team manages the entire assembly process, from unloading and positioning the modules to ensuring all systems are connected and functional. With minimal disruption to the site, we handle all logistical and technical aspects to ensure a smooth installation experience.</p>
-                <p class="text__block-desc">This service is designed to make the transition from factory production to functional on-site systems seamless, reducing delays and avoiding costly mistakes. By trusting us with your installation needs, you can rest assured that the modules will be assembled with precision and fully aligned with your original design requirements.</p>
+                <p class="text__block-desc">We provide expert supervision for the installation and assembly of modular units, ensuring that each component aligns with project specifications and meets quality standards. Our experienced supervisors work closely with contractors and site teams, overseeing each stage to guarantee efficient assembly and safe construction practices.</p>
               </div><!-- /.text-block -->
 
               <div class="row">
@@ -132,8 +132,7 @@
 
               <div class="text__block mb-30">
                 <h5 class="text__block-title">How It Works?!</h5>
-                <p class="text__block-desc">Once the modular units arrive at the project site, our skilled installation team coordinates their delivery and placement. Using specialized equipment, each unit is carefully positioned and secured according to the project’s specifications.</p>
-                <p class="text__block-desc">After placement, our team connects all utilities, systems, and fixtures, such as plumbing, electrical, and HVAC. We conduct rigorous quality checks to ensure everything is functioning correctly, ensuring that the completed structure is ready for use or further finishing as required.</p>
+                <p class="text__block-desc">Our supervisors collaborate with on-site teams from start to finish, guiding the setup process and monitoring each phase to ensure accuracy and safety. They provide real-time problem-solving and quality checks, so your project progresses smoothly and meets compliance requirements.</p>
               </div>
               <div class="video-banner mb-70">
                 <img src="{{ asset('assets/images/pbb-img/service/on-site-installation-3.jpg') }}" alt="banner">
@@ -150,7 +149,7 @@
               </div><!-- /.video-banner -->
               <div class="text__block mb-30">
                 <h5 class="text__block-title">Why Us!</h5>
-                <p class="text__block-desc">Choosing our On-Site Installation & Assembly service means selecting a team that works efficiently and with precision to complete your project on time. Our experienced professionals ensure that every aspect of installation is handled safely and according to the highest standards. Here’s why we stand out:</p>
+                <p class="text__block-desc">Choosing our supervision service means your project benefits from specialized oversight and quality control. Our team offers decades of experience in modular construction and is dedicated to delivering projects on time and to specification.</p>
               </div>
               <div class="row features-layout3">
                 <!-- Feature item #1 -->
@@ -159,8 +158,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-hydro-power3"></i>
                     </div> --}}
-                    <h4 class="feature__title">Skilled Workforce</h4>
-                    <p class="feature__desc">Our installation team is highly trained to manage every stage of the assembly process, from handling materials to connecting systems.</p>
+                    <h4 class="feature__title">Experienced Supervisors</h4>
+                    <p class="feature__desc">Highly trained professionals ensure all standards and specifications are met.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -173,8 +172,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-biosphere"></i>
                     </div> --}}
-                    <h4 class="feature__title">Efficient Workflow</h4>
-                    <p class="feature__desc">We prioritize speed and accuracy, minimizing the time your site is under construction and reducing disruption to surrounding operations.</p>
+                    <h4 class="feature__title">Consistent Quality Checks</h4>
+                    <p class="feature__desc">We provide continuous inspections to maintain high quality and compliance.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -187,8 +186,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-eco-house"></i>
                     </div> --}}
-                    <h4 class="feature__title">Safety & Quality Assurance</h4>
-                    <p class="feature__desc">We adhere to strict safety protocols and quality checks during installation, ensuring that your structure is stable, functional, and up to code.</p>
+                    <h4 class="feature__title">On-Site Problem Resolution</h4>
+                    <p class="feature__desc">Immediate support to address any challenges during installation.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -201,31 +200,31 @@
               <div id="accordion" class="mb-60">
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse1">
-                    <a class="accordion-item__title" href="#!">How does on-site installation speed up the process?</a>
+                    <a class="accordion-item__title" href="#!">How do we ensure quality control?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse1" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Our experienced team ensures quick and efficient module assembly, drastically reducing overall project timelines compared to traditional construction methods.</p>
+                      <p>We conduct rigorous quality checks at each installation phase, ensuring all aspects meet our high standards.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse2">
-                    <a class="accordion-item__title" href="#!">What measures do you take for safety during installation?</a>
+                    <a class="accordion-item__title" href="#!">What makes our supervision effective?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse2" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>We follow strict safety protocols during every phase of the assembly, including site preparation, material handling, and final installation, to protect both the crew and the site.</p>
+                      <p>Our team provides hands-on guidance, addressing any issues immediately for smooth project completion.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse3">
-                    <a class="accordion-item__title" href="#!">Why is on-site assembly better than traditional construction?</a>
+                    <a class="accordion-item__title" href="#!">Do we comply with safety regulations?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse3" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Modular installation is faster and more predictable, resulting in less disruption to the site and more control over the project timeline, helping you meet deadlines with confidence.</p>
+                      <p>Yes, our supervision adheres strictly to industry safety standards, ensuring a safe and compliant assembly process.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->

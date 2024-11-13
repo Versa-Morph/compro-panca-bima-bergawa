@@ -30,7 +30,12 @@
       =========================  -->
       <section id="careers" class="careers pb-70">
         <div class="container">
-          <div class="row">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-secondary text-center">Currently, there are no open positions listed in our Careers section.</h5>
+                </div>
+            </div>
+          {{-- <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
               <div class="heading text-center mb-50">
                 <span class="heading__subtitle">Work With Us!</span>
@@ -101,7 +106,7 @@
                 </div><!-- /.job-item -->
               </div>
             </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
+          </div><!-- /.row --> --}}
         </div><!-- /.container -->
       </section><!-- /.careers -->
 
@@ -151,7 +156,7 @@
             <div class="col-sm-12 col-md-12 col-lg-6 position-static">
               <div class="map-container">
                 <img src="{{ asset('assets/images/backgrounds/map3.png') }}" alt="map">
-                <div class="fancybox-layout2">
+                {{-- <div class="fancybox-layout2">
                   <!-- fancybox #1 -->
                   <div class="fancybox-item">
                     <div class="fancybox__thumb"></div><!-- /.fancybox-thumb -->
@@ -230,7 +235,7 @@
                       </div>
                     </div><!-- /.fancybox-panel -->
                   </div><!-- /. fancybox-item -->
-                </div><!-- /.fancybox-layout2 -->
+                </div><!-- /.fancybox-layout2 --> --}}
               </div>
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -250,10 +255,9 @@
                     <i class="icon-solar-panel"></i>
                   </div><!-- /.cta__icon -->
                   <div class="cta__body">
-                    <h4 class="cta__title">Design & Shipping</h4>
-                    <p class="cta__desc">We collaborate with you to design and deliver a system that meets your utility
-                      usage and selecting equipments.</p>
-                    <a href="#" class="btn btn__link btn__primary">
+                    <h4 class="cta__title">Custom Design & Delivery</h4>
+                    <p class="cta__desc">We work closely with you to design and deliver modular solutions that meet your specific needs, ensuring that every detail aligns with your project requirements.</p>
+                    <a href="{{ route('user.request-quote') }}" class="btn btn__link btn__primary">
                       <i class="icon-arrow-right"></i>
                       <span>Schedule A Visit</span>
                     </a>
@@ -264,10 +268,9 @@
                     <i class="icon-energy"></i>
                   </div><!-- /.cta__icon -->
                   <div class="cta__body">
-                    <h4 class="cta__title">Contract & Install</h4>
-                    <p class="cta__desc">Whether you want to install the system on your own or hire local contractors
-                      directly managing the installation.</p>
-                    <a href="#" class="btn btn__link btn__primary">
+                    <h4 class="cta__title">Flexible Installation Options</h4>
+                    <p class="cta__desc">Choose between self-installation or working with local contractors to manage the installation process directly, giving you full control over how your modular units are set up.</p>
+                    <a href="{{ route('user.request-quote') }}" class="btn btn__link btn__primary">
                       <span>Request A Quote</span>
                       <i class="icon-arrow-right"></i>
                     </a>
@@ -291,7 +294,7 @@
       <!-- =====================
            testimonials
         ======================== -->
-      <section class="testimonials-layout2 pt-0 pb-60">
+      {{-- <section class="testimonials-layout2 pt-0 pb-60">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -376,7 +379,7 @@
             </div><!-- /.col-lg-12 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section><!-- /.testimonials -->
+      </section><!-- /.testimonials --> --}}
 
       <!-- =====================
            Clients

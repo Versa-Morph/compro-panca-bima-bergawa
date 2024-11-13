@@ -207,7 +207,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6">
             <strong class="text-center d-block mt-60 mb-20">Receive an accurate quote within 3-5 days when you fill out the
             form on this page. Or, give us a call:
-            <a href="tel:00201061245741" class="text-underlined-primary">(002) 01061245741</a>
+            <a href="#!" class="text-underlined-primary">+62 852 1308 8243</a>
             </strong>
         </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -330,7 +330,7 @@
                         <p class="mb-20">If you have any questions or need help, feel free to contact with our team.</p>
                         <div class="contact__number d-flex align-items-center mb-30">
                             <i class="icon-phone"></i>
-                            <a href="tel:5565454117" class="color-primary">55 654 541 17</a>
+                            <a href="#!" class="color-primary">+62 852 1308 8243</a>
                         </div>
 
                         <p class="mb-20">2307 Beverley Rd Brooklyn, New York 11226 United States.</p>

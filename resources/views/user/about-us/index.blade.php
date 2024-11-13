@@ -70,7 +70,7 @@
             <div class="col-sm-12 col-md-12 col-lg-5">
               <div class="video-banner-layout2">
                 <img src="{{ asset('assets/images/pbb-img/modular-inovation.jpg') }}" alt="about" class="w-100">
-                <div class="video-has-img">
+                {{-- <div class="video-has-img">
                   <img src="{{ asset('assets/images/video/1.jpg') }}" alt="video">
                   <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                     <div class="video__player">
@@ -78,7 +78,7 @@
                     </div>
                   </a>
                   <span class="video__btn-title">Watch Our Intro!</span>
-                </div>
+                </div> --}}
               </div><!-- /.video-banner -->
             </div><!-- /.col-lg-5 -->
             <div class="col-sm-12 col-md-12 col-lg-5">
@@ -332,7 +332,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-1.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Custom Modular Manufacturing</h4>
@@ -351,9 +351,9 @@
                   <img src="{{ asset('assets/images/pbb-img/service/on-site-installation-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">On-Site Installation & Assembly</h4>
-                  <p class="service__desc">End-to-end installation and assembly services, including on-site support and quality control to ensure seamless integration of modular units.</p>
-                  <a href="{{ route('user.service.on-site-installation') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Supervise Installation & Assembly</h4>
+                  <p class="service__desc">Comprehensive supervision services with on-site support and quality assurance integration of modular components.</p>
+                  <a href="{{ route('user.service.supervise-installation-and-assembly') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
