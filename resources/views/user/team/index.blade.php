@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h5 class="text-secondary text-center">Under Constraction</h5>
+                    <h5 class="text-secondary text-center">Under Maintenance</h5>
                 </div>
             </div>
           {{-- <div class="row">

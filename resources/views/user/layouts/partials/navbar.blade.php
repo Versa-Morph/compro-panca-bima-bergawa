@@ -74,9 +74,9 @@
                                 <a href="{{ route('user.about-us') }}" class="nav__item-link {{ request()->routeIs('user.about-us') ? 'active' : '' }}">About Us</a>
                             </li>
 
-                            <li class="nav__item">
+                            {{-- <li class="nav__item">
                                 <a href="{{ route('user.team') }}" class="nav__item-link {{ request()->routeIs('user.team') ? 'active' : '' }}">Leadership Team</a>
-                            </li>
+                            </li> --}}
 
                             <li class="nav__item">
                                 <a href="{{ route('user.awards') }}" class="nav__item-link {{ request()->routeIs('user.awards') ? 'active' : '' }}">Awards & Recognition</a>
