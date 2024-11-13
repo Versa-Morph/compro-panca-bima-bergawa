@@ -60,11 +60,11 @@
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
-              <div class="accordion-item opened">
+              <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse3">
                   <a class="accordion-item__title" href="#">What types of buildings can be constructed using modular methods?</a>
                 </div><!-- /.accordion-item-header -->
-                <div id="collapse3" class="collapse show" data-parent="#accordion">
+                <div id="collapse3" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
                     <p>Modular construction is highly versatile and can be used for a wide range of buildings, including commercial spaces, residential homes, industrial facilities, healthcare centers, educational institutions, and hospitality buildings.</p>
                   </div><!-- /.accordion-item-body -->
@@ -132,11 +132,11 @@
                   </div><!-- /.accordion-item-body -->
                 </div>
               </div><!-- /.accordion-item -->
-              <div class="accordion-item opened">
+              <div class="accordion-item">
                 <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse10">
                   <a class="accordion-item__title" href="#">What types of projects has PT Panca Bima Bergawa completed?</a>
                 </div><!-- /.accordion-item-header -->
-                <div id="collapse10" class="collapse show" data-parent="#accordion">
+                <div id="collapse10" class="collapse" data-parent="#accordion">
                   <div class="accordion-item__body">
                     <p>PT Panca Bima Bergawa has completed a wide range of modular projects, including commercial office spaces, residential developments, industrial warehouses, healthcare facilities, and more. Our portfolio showcases our expertise and innovation in the modular construction industry.</p>
                   </div><!-- /.accordion-item-body -->
@@ -144,7 +144,7 @@
               </div><!-- /.accordion-item -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
-          <div class="row">
+          {{-- <div class="row">
             <div class="col-12">
               <p class="text__link text-center mb-0">Sustainable, reliable & affordable energy systems,
                 <a href="#">
@@ -152,14 +152,14 @@
                 </a>
               </p>
             </div><!-- /.col-12 -->
-          </div><!-- /.row -->
+          </div><!-- /.row --> --}}
         </div><!-- /.container -->
       </section><!-- /.FAQ -->
 
       <!-- ===========================
         Banner layout 4
       ============================= -->
-      <section class="banner-layout4 py-0">
+      {{-- <section class="banner-layout4 py-0">
         <div class="container-fluid px-0">
           <div class="row row-no-gutter">
             <div class="col-sm-12 col-md-12 col-lg-6 background-banner">
@@ -212,7 +212,7 @@
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section><!-- /.Banner layout 4 -->
+      </section><!-- /.Banner layout 4 --> --}}
 
       <!-- ======================
       Testimonials
@@ -222,8 +222,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
               <div class="heading text-center mb-40">
-                <h2 class="heading__subtitle color-primary">Customers Doing it Their Way</h2>
-                <h3 class="heading__title">Our Customers Share Their Experiences & Insights</h3>
+                <h2 class="heading__subtitle color-primary">Clients Shaping Their Own Success</h2>
+                <h3 class="heading__title">Our Clients Share Their Experiences & Insights</h3>
               </div><!-- /.heading -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -240,8 +240,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    The team accelerated our commercial project without compromising on quality. Highly professional and timely service.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -255,8 +254,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Impressed with the quality standards. From design to installation, everything met our expectations.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -270,8 +268,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Responsive and innovative solutions helped us save time and costs on modular needs.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -285,8 +282,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    As a contractor on large projects, we rely on their consistent quality and on-time delivery.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -300,8 +296,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Our modular project collaboration was outstanding, with top-notch technical support and fast production timelines.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -315,8 +310,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    They enabled us to create eco-friendly solutions, perfectly aligning with our green building goals.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -330,8 +324,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Their expertise and attention to detail made a significant difference in our project’s success. Truly dependable partners.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->

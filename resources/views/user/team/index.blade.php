@@ -30,7 +30,12 @@
       ========================== -->
       <section id="team" class="team-layout1 pb-30">
         <div class="container">
-          <div class="row">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-secondary text-center">Under Constraction</h5>
+                </div>
+            </div>
+          {{-- <div class="row">
             <!-- Member #1 -->
             <div class="col-sm-6 col-md-4 col-lg-4">
               <div class="member">
@@ -88,14 +93,14 @@
                 </div><!-- /.member-info -->
               </div><!-- /.member -->
             </div><!-- /.col-lg-4 -->
-          </div> <!-- /.row -->
+          </div> <!-- /.row --> --}}
         </div><!-- /.container -->
       </section><!-- /.Team layout 1  -->
 
       <!-- ========================
           Team layout 2
       ========================== -->
-      <section class="team-layout2 text-center pt-0 pb-30">
+      {{-- <section class="team-layout2 text-center pt-0 pb-30">
         <div class="container">
           <div class="row">
             <!-- Member #1 -->
@@ -168,5 +173,5 @@
             </div><!-- /.col-lg-3 -->
           </div> <!-- /.row -->
         </div><!-- /.container -->
-      </section><!-- /.Team layout 2  -->
+      </section><!-- /.Team layout 2  --> --}}
 @endsection

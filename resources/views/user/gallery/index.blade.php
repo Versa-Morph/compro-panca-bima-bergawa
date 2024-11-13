@@ -33,43 +33,43 @@
           <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="gallery-item">
-                <a class="popup-gallery-item" href="assets/images/gallery/1.jpg">
-                  <img src="{{ asset('assets/images/gallery/1.jpg') }}" alt="gallery img">
+                <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-1.jpg') }}">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-1.jpg') }}" alt="gallery img">
                 </a>
               </div>
             </div><!-- /.col-lg-4 -->
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="gallery-item">
-                <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/2.jpg') }}">
-                  <img src="{{ asset('assets/images/gallery/2.jpg') }}" alt="gallery img">
+                <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/consultation-support-2.jpg') }}">
+                  <img src="{{ asset('assets/images/pbb-img/service/consultation-support-2.jpg') }}" alt="gallery img">
                 </a>
               </div>
             </div><!-- /.col-lg-4 -->
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="gallery-item">
-                <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/3.jpg') }}">
-                  <img src="{{ asset('assets/images/gallery/3.jpg') }}" alt="gallery img">
+                <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}">
+                  <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}" alt="gallery img">
                 </a>
               </div>
             </div><!-- /.col-lg-4 -->
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="gallery-item">
-                <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/4.jpg') }}">
-                  <img src="{{ asset('assets/images/gallery/4.jpg') }}" alt="gallery img">
+                <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/eco-friendly-2.jpg') }}">
+                  <img src="{{ asset('assets/images/pbb-img/service/eco-friendly-2.jpg') }}" alt="gallery img">
                 </a>
               </div>
             </div><!-- /.col-lg-4 -->
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="gallery-item">
-                <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/5.jpg') }}">
-                  <img src="{{ asset('assets/images/gallery/5.jpg') }}" alt="gallery img">
+                <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/on-site-installation-4.jpg') }}">
+                  <img src="{{ asset('assets/images/pbb-img/service/on-site-installation-4.jpg') }}" alt="gallery img">
                 </a>
               </div>
             </div><!-- /.col-lg-4 -->
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="gallery-item">
-                <a class="popup-gallery-item" href="{{ asset('assets/images/gallery/6.jpg') }}">
-                  <img src="{{ asset('assets/images/gallery/6.jpg') }}" alt="gallery img">
+                <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/project-design-planning-2.jpg') }}">
+                  <img src="{{ asset('assets/images/pbb-img/service/project-design-planning-2.jpg') }}" alt="gallery img">
                 </a>
               </div>
             </div><!-- /.col-lg-4 -->

@@ -1,7 +1,8 @@
-<!-- ===========================
+@if (!Route::is('user.contact'))
+    <!-- ===========================
     contact layout 2
     ============================= -->
-    <section class="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient">
+<section class="contact-layout2 pb-0 bg-overlay bg-overlay-primary-gradient">
     <div class="bg-img"><img src="{{ asset('assets/images/banners/2.jpg') }}" alt=""></div>
     <div class="container">
         <div class="row">
@@ -122,15 +123,11 @@
                     </div>
                 </div><!-- /.col-sm-6 -->
                 <div class="col-sm-6">
-                    <span class="font-weight-bold color-heading">Budget Range</span>
+                    <span class="font-weight-bold color-heading">Area (m²)</span>
                     <div class="form-group">
-                    <select class="form-control">
-                        <option value="Under $50,000">Under $50,000</option>
-                        <option value="$50,000 - $100,000">$50,000 - $100,000</option>
-                        <option value="$100,000 - $250,000">$100,000 - $250,000</option>
-                        <option value="$250,000 - $500,000">$250,000 - $500,000</option>
-                        <option value="Over $500,000">Over $500,000</option>
-                    </select>
+                        <input type="number" min="0" class="form-control" placeholder="Area" id="contact-Area"
+                        name="contact-Area">
+                    </div>
                     </div>
                 </div><!-- /.col-sm-6 -->
                 <div class="col-sm-12 mb-3">
@@ -319,6 +316,8 @@
     </div><!-- /.container -->
     </section><!-- /.blog Grid --> --}}
 
+@endif
+
 <footer class="footer">
     <div class="footer-primary">
         <div class="container">
@@ -333,8 +332,8 @@
                             <a href="#!" class="color-primary">+62 852 1308 8243</a>
                         </div>
 
-                        <p class="mb-20">2307 Beverley Rd Brooklyn, New York 11226 United States.</p>
-                        <a href="#" class="btn__location">
+                        <p class="mb-20">Gd. Wirausaha lt.1 Unit 104, Jalan Haji R. Rasuna Said Kavling C5, RT.3/RW.1, Karet, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12920.</p>
+                        <a href="https://maps.app.goo.gl/CDJZYe8nXkdoMG6y7" class="btn__location">
                             <i class="icon-location"></i>
                             <span>Get Directions</span>
                         </a>

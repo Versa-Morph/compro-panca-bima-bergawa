@@ -15,7 +15,7 @@
                             </li>
                             <li>
                                 <i class="icon-location color-primary"></i>
-                                <a href="#" class="color-primary">Get Directions</a>
+                                <a href="https://maps.app.goo.gl/CDJZYe8nXkdoMG6y7" class="color-primary">Get Directions</a>
                             </li>
                         </ul><!-- /.contact__list -->
                         <div class="d-flex align-items-center">

@@ -42,9 +42,9 @@
             <!-- feature item #1 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="feature-item">
-                <div class="feature__img">
+                {{-- <div class="feature__img">
                   <img src="{{ asset('assets/images/awards/1.jpg') }}" alt="certificate" class="img-fluid">
-                </div><!-- /.feature-img -->
+                </div><!-- /.feature-img --> --}}
                 <div class="feature__body">
                   <h4 class="feature__title">Family Business Award</h4>
                   <p class="feature__desc">We believe that strong partnerships are the key to our success. We collaborate with trusted global suppliers to deliver the highest quality modular solutions.</p>
@@ -54,9 +54,9 @@
             <!-- feature item #2 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="feature-item">
-                <div class="feature__img">
+                {{-- <div class="feature__img">
                   <img src="{{ asset('assets/images/awards/2.jpg') }}" alt="certificate" class="img-fluid">
-                </div><!-- /.feature-img -->
+                </div><!-- /.feature-img --> --}}
                 <div class="feature__body">
                   <h4 class="feature__title">Excellence in Exporting</h4>
                   <p class="feature__desc">We are committed to transparent communication and integrity in every interaction. Our goal is to provide practical solutions without excuses.</p>
@@ -66,9 +66,9 @@
             <!-- feature item #3 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="feature-item">
-                <div class="feature__img">
+                {{-- <div class="feature__img">
                   <img src="{{ asset('assets/images/awards/3.jpg') }}" alt="certificate" class="img-fluid">
-                </div><!-- /.feature-img -->
+                </div><!-- /.feature-img --> --}}
                 <div class="feature__body">
                   <h4 class="feature__title">Top Leading Global Trade </h4>
                   <p class="feature__desc">As experts in modular construction, we monitor every step of the process to ensure that your project’s logistics and execution are handled smoothly and efficiently.</p>
@@ -78,9 +78,9 @@
             <!-- feature item #4 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="feature-item">
-                <div class="feature__img">
+                {{-- <div class="feature__img">
                   <img src="{{ asset('assets/images/awards/4.jpg') }}" alt="certificate" class="img-fluid">
-                </div><!-- /.feature-img -->
+                </div><!-- /.feature-img --> --}}
                 <div class="feature__body">
                   <h4 class="feature__title">Sales Excellence Award</h4>
                   <p class="feature__desc">Our growth is driven by long-term partnerships, ensuring that our clients receive top-quality service and support throughout their modular construction journey.</p>
@@ -90,9 +90,9 @@
             <!-- feature item #5 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="feature-item">
-                <div class="feature__img">
+                {{-- <div class="feature__img">
                   <img src="{{ asset('assets/images/awards/5.jpg') }}" alt="certificate" class="img-fluid">
-                </div><!-- /.feature-img -->
+                </div><!-- /.feature-img --> --}}
                 <div class="feature__body">
                   <h4 class="feature__title">Construction Excellence</h4>
                   <p class="feature__desc">We pride ourselves on delivering honest, straightforward communication and reliable solutions, without compromises, ensuring the highest standards in construction.</p>
@@ -102,9 +102,9 @@
             <!-- feature item #6 -->
             <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="feature-item">
-                <div class="feature__img">
+                {{-- <div class="feature__img">
                   <img src="{{ asset('assets/images/awards/6.jpg') }}" alt="certificate" class="img-fluid">
-                </div><!-- /.feature-img -->
+                </div><!-- /.feature-img --> --}}
                 <div class="feature__body">
                   <h4 class="feature__title">Safety Award</h4>
                   <p class="feature__desc">Safety is at the heart of everything we do. We monitor and manage every logistical and operational aspect of our projects to ensure a safe and successful completion.</p>
@@ -124,7 +124,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="heading-layout2 heading-light mb-40">
-                <h2 class="heading__title">Delivering Value Through Continuous Innovation and Excellence</h2>
+                <h2 class="heading__title">Providing Value To Our ClientsThrough Ongoing Product & Innovation.</h2>
               </div><!-- /.heading -->
               <div class="row counter-light">
                 <div class="col-sm-6">
@@ -132,7 +132,8 @@
                     <h4 class="counter">6,154</h4>
                     <p class="counter__desc">Projects And Systems Completed in 2021</p>
                   </div>
-                  <p class="color-gray">At PT Panca Bima Bergawa, we understand that those who embrace change are thriving—building bigger, better, faster, and stronger modular solutions. We are committed to driving innovation in every project.
+                  <p class="color-gray">Yet those that embrace change are thriving, building bigger, better, faster, and
+                    stronger products
                   </p>
                   <ul class="list-items list-items-layout2 list-items-light list-unstyled">
                     <li>Download Brochures</li>
@@ -145,7 +146,8 @@
                     <h4 class="counter">2,419</h4>
                     <p class="counter__desc">Qualified Employees & Workers With Us</p>
                   </div>
-                  <p class="color-gray">You are leading the charge in construction, and we’re here to help you build on past successes while preparing for a faster, brighter future.
+                  <p class="color-gray">You are helping lead the charge; we can help you build on your past and prepare
+                    future changing faster.
                   </p>
                   <ul class="list-items list-items-layout2 list-items-light list-unstyled">
                     <li>Our Leadership Team</li>
@@ -158,7 +160,7 @@
             <div class="col-sm-12 col-md-12 col-lg-6 position-static">
               <div class="map-container">
                 <img src="{{ asset('assets/images/backgrounds/map3.png') }}" alt="map">
-                <div class="fancybox-layout2">
+                {{-- <div class="fancybox-layout2">
                   <!-- fancybox #1 -->
                   <div class="fancybox-item">
                     <div class="fancybox__thumb"></div><!-- /.fancybox-thumb -->
@@ -237,7 +239,7 @@
                       </div>
                     </div><!-- /.fancybox-panel -->
                   </div><!-- /. fancybox-item -->
-                </div><!-- /.fancybox-layout2 -->
+                </div><!-- /.fancybox-layout2 --> --}}
               </div>
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -298,7 +300,7 @@
       <!-- =====================
            testimonials
         ======================== -->
-      <section class="testimonials-layout2 pt-0 pb-60">
+      {{-- <section class="testimonials-layout2 pt-0 pb-60">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -383,7 +385,7 @@
             </div><!-- /.col-lg-12 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
-      </section><!-- /.testimonials -->
+      </section><!-- /.testimonials --> --}}
 
       <!-- =====================
            Clients

@@ -6,7 +6,7 @@
     =========================  -->
     <section class="google-map py-0">
         <iframe frameborder="0" height="500" width="100%"
-          src="https://maps.google.com/maps?q=Suite%20100%20San%20Francisco%2C%20LA%2094107%20United%20States&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"></iframe>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.1624615747182!2d106.82854107499033!3d-6.213882993774039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4088c56757d%3A0x253f935e5b0a44fd!2sGedung%20Wirausaha!5e1!3m2!1sid!2sid!4v1731469191966!5m2!1sid!2sid"></iframe>
       </section><!-- /.GoogleMap -->
 
       <!-- ==========================
@@ -21,21 +21,21 @@
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Our Location</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
+                      <li>Gd. Wirausaha lt.1 Unit 104, Jalan Haji R. Rasuna Said Kavling C5, RT.3/RW.1, Karet, Kecamatan Setiabudi, Daerah Khusus Ibukota Jakarta 12920.</li>
                     </ul><!-- /.contact__info-list -->
                   </div><!-- /.contact-info-box -->
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Quick Contact</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>Email: <a href="mailto:Solatec@7oroof.com">Solatec@7oroof.com</a></li>
-                      <li>Support: <a href="mailto:Solatec@7oroof.com">Solatec@7oroof.com</a></li>
+                      <li>Email: <a href="mailto:marketing@bimabergawa.com">marketing@bimabergawa.com</a></li>
+                      {{-- <li>Support: <a href="mailto:marketing@bimabergawa.com">marketing@bimabergawa.com</a></li> --}}
                     </ul><!-- /.contact__info-list -->
                   </div><!-- /.contact-info-box -->
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Opening Hours</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>From Monday - Friday</li>
-                      <li>8 am to 7 pm</li>
+                      <li>From Monday - Saturday</li>
+                      <li>8 am to 6 pm</li>
                     </ul><!-- /.contact__info-list -->
                   </div><!-- /.contact-info-box -->
                   <a href="#" class="btn btn__primary">
@@ -73,8 +73,14 @@
                       <div class="form-group">
                         <select>
                           <option value="0">Select Your services</option>
-                          <option value="1">service 1</option>
-                          <option value="2">service 2</option>
+                          <option value="Modular Construction Solutions">Modular Construction Solutions</option>
+                          <option value="Project Design & Planning">Project Design & Planning </option>
+                          <option value="Eco-Friendly & Sustainable Building Solutions">Eco-Friendly & Sustainable Building Solutions</option>
+                          <option value="Custom Modular Manufacturing">Custom Modular Manufacturing</option>
+                          <option value="Supervise Installation & Assembly">Supervise Installation & Assembly</option>
+                          <option value="Turnkey Project Management">Turnkey Project Management</option>
+                          <option value="Supply Chain & Material Sourcing">Supply Chain & Material Sourcing</option>
+                          <option value="Consultation & Technical Support">Consultation & Technical Support</option>
                         </select>
                       </div>
                     </div><!-- /.col-lg-6 -->

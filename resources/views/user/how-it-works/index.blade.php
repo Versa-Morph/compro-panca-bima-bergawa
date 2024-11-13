@@ -177,8 +177,8 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
               <div class="heading text-center mb-40">
-                <h2 class="heading__subtitle color-primary">Customers Doing it Their Way</h2>
-                <h3 class="heading__title">Our Customers Share Their Experiences & Insights</h3>
+                <h2 class="heading__subtitle color-primary">Clients Shaping Their Own Success</h2>
+                <h3 class="heading__title">Our Clients Share Their Experiences & Insights</h3>
               </div><!-- /.heading -->
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
@@ -195,8 +195,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    The team accelerated our commercial project without compromising on quality. Highly professional and timely service.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -210,8 +209,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Impressed with the quality standards. From design to installation, everything met our expectations.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -225,8 +223,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Responsive and innovative solutions helped us save time and costs on modular needs.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -240,8 +237,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    As a contractor on large projects, we rely on their consistent quality and on-time delivery.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -255,8 +251,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Our modular project collaboration was outstanding, with top-notch technical support and fast production timelines.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -270,8 +265,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    They enabled us to create eco-friendly solutions, perfectly aligning with our green building goals.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
@@ -285,8 +279,7 @@
                 </div><!-- /.testimonial-thumb -->
                 <div class="testimonial__panel">
                   <div class="testimonial__desc">
-                    As one of the world's largest ITService Providers with over 120 engineers and IT support staff are
-                    ready to help.
+                    Their expertise and attention to detail made a significant difference in our project’s success. Truly dependable partners.
                   </div>
                 </div><!-- /.testimonial-panel -->
               </div><!-- /. testimonial-box -->
