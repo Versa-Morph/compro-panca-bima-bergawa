@@ -360,8 +360,14 @@
                     <div class="footer-widget-content">
                         <nav>
                             <ul class="list-unstyled">
-                                <li><a href="{{ route('user.projects.detail') }}">Wind Generators</a></li>
-                                <li><a href="{{ route('user.projects.detail') }}">Solar PV Materials</a></li>
+                                <li><a href="{{ route('user.service.modular-construction') }}">Modular Construction Solutions</a></li>
+                                <li><a href="{{ route('user.service.project-design') }}">Project Design & Planning</a></li>
+                                <li><a href="{{ route('user.service.eco-friendly-building') }}">Eco-Friendly & Sustainable Building Solutions</a></li>
+                                <li><a href="{{ route('user.service.custom-modular-manufacturing') }}">Custom Modular Manufacturing</a></li>
+                                <li><a href="{{ route('user.service.supervise-installation-and-assembly') }}">Supervise Installation & Assembly</a></li>
+                                <li><a href="{{ route('user.service.turnkey-project-management') }}">Turnkey Project Management</a></li>
+                                <li><a href="{{ route('user.service.supply-chain-sourcing') }}">Supply Chain & Material Sourcing</a></li>
+                                <li><a href="{{ route('user.service.consultation-support') }}">Consultation & Technical Support</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -373,9 +379,8 @@
                         <nav>
                             <ul class="list-unstyled">
                                 <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Shipping Policy</a></li>
-                                <li><a href="#">Delivery Tips</a></li>
-                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Refund Policy</a></li>
                             </ul>
                         </nav>
                     </div>
