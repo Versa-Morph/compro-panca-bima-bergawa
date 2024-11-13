@@ -331,12 +331,12 @@
           </div><!-- /.cta -->
           <div class="row">
             <div class="col-12">
-              <p class="text__link text-center mb-0">
+              {{-- <p class="text__link text-center mb-0">
                 Discover the possibilities of modular construction tailored to your needs.
                 <a href="#">
                   <span>Explore Our Solutions Today!</span> <i class="icon-arrow-right"></i>
                 </a>
-              </p>
+              </p> --}}
             </div><!-- /.col-12 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
