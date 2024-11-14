@@ -7,7 +7,20 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
 <link rel="stylesheet" href="{{ asset('assets/css/libraries.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
+<style>
+    #google_translate_element, .goog-te-banner-frame, .goog-te-menu-frame {
+        display: none !important;
+    }
+    .goog-te-combo {
+        display: none !important;
+    }
+    .skiptranslate {
+        display: none !important;
+    }
+    body {
+        top: 0 !important;
+    }
+</style>
 @stack('style-link')
 
 @stack('style')

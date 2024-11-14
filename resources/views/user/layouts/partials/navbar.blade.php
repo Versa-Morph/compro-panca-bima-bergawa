@@ -30,17 +30,26 @@
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul><!-- /.social-icons -->
 
+                            <!-- Google Translate Element (Hidden) -->
+                            <div id="google_translate_element" style="display:none;"></div>
+
+                            <!-- Custom Dropdown -->
                             <div class="dropdown lang-dropdown">
                                 <button class="dropdown-toggle lang-dropdown-toggle" id="langDropdown" data-toggle="dropdown">
-                                    <img src="{{ asset('assets/images/flags/en.png') }}" alt="en"> <span>English</span>
+                                    <img src="{{ asset('assets/images/flags/united kingdom.png') }}" width="30" alt="en"> <span>English</span>
                                 </button>
-
                                 <div class="dropdown-menu" aria-labelledby="langDropdown">
-                                    <a class="dropdown-item" href="#">
-                                        <img src="{{ asset('assets/images/flags/fr.png') }}" alt="en"> <span>France</span>
+                                    <a class="dropdown-item" href="#" onclick="translateLanguage('en')">
+                                        <img src="{{ asset('assets/images/flags/united kingdom.png') }}" alt="en" width="30"> <span>English</span>
                                     </a>
-                                    <a class="dropdown-item" href="#">
-                                        <img src="{{ asset('assets/images/flags/gr.png') }}" alt="en"> <span>Germany</span>
+                                    <a class="dropdown-item" href="#" onclick="translateLanguage('id')">
+                                        <img src="{{ asset('assets/images/flags/indonesia.png') }}" alt="id" width="30"> <span>Indonesia</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#" onclick="translateLanguage('zh-CN')">
+                                        <img src="{{ asset('assets/images/flags/china.png') }}" alt="zh" width="30"> <span>China</span>
+                                    </a>
+                                    <a class="dropdown-item" href="#" onclick="translateLanguage('ja')">
+                                        <img src="{{ asset('assets/images/flags/japan.png') }}" alt="jp" width="30"> <span>Japan</span>
                                     </a>
                                 </div>
                             </div>

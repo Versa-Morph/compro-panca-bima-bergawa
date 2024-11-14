@@ -17,9 +17,9 @@
     =========================== -->
 
     @include('user.layouts.partials.navbar')
-
     @yield('content')
-
+    <!-- Google Translate Element (Hidden) -->
+    <div id="google_translate_element"></div>
     <!-- ========================
     Footer
     ========================== -->

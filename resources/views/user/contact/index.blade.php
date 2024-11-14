@@ -28,6 +28,7 @@
                     <h4 class="contact__info-box-title">Quick Contact</h4>
                     <ul class="contact__info-list list-unstyled">
                       <li>Email: <a href="mailto:marketing@bimabergawa.com">marketing@bimabergawa.com</a></li>
+                      <li>Whatsapp: <a href="#!">+62 852 1308 8243</a></li>
                       {{-- <li>Support: <a href="mailto:marketing@bimabergawa.com">marketing@bimabergawa.com</a></li> --}}
                     </ul><!-- /.contact__info-list -->
                   </div><!-- /.contact-info-box -->
