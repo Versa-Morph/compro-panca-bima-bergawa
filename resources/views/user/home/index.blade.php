@@ -1,11 +1,43 @@
 @extends('user.layouts.app')
-
+@push('style')
+<style>
+.img-modular {
+    height: 180px; /* Sesuaikan tinggi sesuai kebutuhan */
+    width: 100%; /* Memastikan lebar menyesuaikan secara proporsional */
+    object-fit: cover; /* Memastikan gambar tetap bagus tanpa distorsi */
+    display: block; /* Menghindari ada ruang kosong di bawah gambar */
+}
+.service__body {
+    height: 320px !important;
+}
+</style>
+@endpush
 @section('content')
     <!-- ============================
         Slider
     ============================== -->
     <section class="slider">
         <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0" data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
+          <div class="slide-item align-v-h bg-overlay bg-overlay-2">
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-0.jpg') }}" alt="slide img"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                  <div class="slide__body">
+                    <span class="slide__subtitle">Advanced Pump & Heavy Equipment Spare Parts Solutions</span>
+                    <h2 class="slide__title">Enhancing Efficiency, Guaranteeing Durability!</h2>
+                    <p class="slide__desc">As an industry frontrunner in equipment solutions, we provide premium pump systems from dosing pumps to electric motor pumps engineered to deliver exceptional performance and efficiency for a wide array of applications.</p>
+                    <div class="d-flex">
+                      <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
+                        <i class="icon-arrow-right"></i><span>More About Us</span>
+                      </a>
+                      <a href="{{ route('user.about-us') }}" class="btn btn__white">More About Us!</a>
+                    </div>
+                  </div><!-- /.slide__body -->
+                </div><!-- /.col-xl-8 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay bg-overlay-2">
             <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-1.jpg') }}" alt="slide img"></div>
             <div class="container">
@@ -181,97 +213,127 @@
                 <!-- service item #1 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/rapid-build.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/advance-pump.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                  </div><!-- /.service__img -->
+                  <div class="service__body">
+                    <h4 class="service__title">Advanced Pump Systems</h4>
+                    <p class="service__desc">
+                        Perfect for industries demanding precision, our state-of-the-art pump systems deliver reliable fluid management tailored to your operational needs ensuring high performance and minimal downtime.
+                    </p>
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                      <span>Read More</span>
+                      <i class="icon-arrow-right"></i>
+                    </a> --}}
+                  </div><!-- /.service__body -->
+                </div><!-- /.service-item -->
+                <div class="service-item">
+                  <div class="service__img">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/Heavy-Equipment-Spare-Parts.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                  </div><!-- /.service__img -->
+                  <div class="service__body">
+                    <h4 class="service__title">Heavy Equipment Spare Parts</h4>
+                    <p class="service__desc">
+                        Engineered to endure the harshest conditions, our durable spare parts for heavy machinery and mining applications keep your operations running smoothly providing unwavering performance when you need it most.
+                    </p>
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                      <span>Read More</span>
+                      <i class="icon-arrow-right"></i>
+                    </a> --}}
+                  </div><!-- /.service__body -->
+                </div><!-- /.service-item -->
+                <div class="service-item">
+                  <div class="service__img">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/rapid-build.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Rapid Build Commercial Units</h4>
                     <p class="service__desc">
                         Perfect for businesses needing swift setups, our commercial units offer flexible designs that cater to retail, office spaces, and more—delivered and installed within weeks.
                     </p>
-                    <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                   </div><!-- /.service__body -->
                 </div><!-- /.service-item -->
                 <!-- service item #2 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/residensial.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/residensial.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Residential Modular Homes</h4>
                     <p class="service__desc">
                         Tailored for modern living, our residential packages provide sustainable, energy-efficient homes that can be customized to suit any lifestyle or location.
                     </p>
-                    <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                   </div><!-- /.service__body -->
                 </div><!-- /.service-item -->
                 <!-- service item #3 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/industrial.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/industrial.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Industrial Modular Complexes</h4>
                     <p class="service__desc">
                         Designed for factories, warehouses, and industrial facilities, our modular complexes are built to withstand heavy usage while offering scalable and adaptable spaces.
                     </p>
-                    <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                   </div><!-- /.service__body -->
                 </div><!-- /.service-item -->
                 <!-- service item #4 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/education&healthcare.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/education&healthcare.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Educational and Healthcare Facilities</h4>
                     <p class="service__desc">
                         Delivering high-quality, safe, and functional spaces for schools, clinics, and hospitals with rapid deployment to meet urgent community needs.
                     </p>
-                    <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                   </div><!-- /.service__body -->
                 </div><!-- /.service-item -->
                 <!-- service item #5 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/hospitaly.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/hospitaly.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Hospitality and Leisure Units</h4>
                     <p class="service__desc">
                         From hotels to recreational facilities, our hospitality solutions offer aesthetically pleasing and functional spaces that enhance guest experiences.
                     </p>
-                    <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                   </div><!-- /.service__body -->
                 </div><!-- /.service-item -->
                 <!-- service item #6 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/remote.jpg') }}" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/remote.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Remote and Offsite Solutions</h4>
                     <p class="service__desc">
                         Ideal for remote locations, our offsite packages provide all-in-one modular units designed for mining, oil & gas, and other industries operating in challenging environments.
                     </p>
-                    <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
-                    </a>
+                    </a> --}}
                   </div><!-- /.service__body -->
                 </div><!-- /.service-item -->
               </div><!-- /.carousel-->
