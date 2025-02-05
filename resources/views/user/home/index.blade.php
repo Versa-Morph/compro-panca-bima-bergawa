@@ -24,9 +24,29 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">Advanced Pump & Heavy Equipment Spare Parts Solutions</span>
-                    <h2 class="slide__title">Enhancing Efficiency, Guaranteeing Durability!</h2>
-                    <p class="slide__desc">As an industry frontrunner in equipment solutions, we provide premium pump systems from dosing pumps to electric motor pumps engineered to deliver exceptional performance and efficiency for a wide array of applications.</p>
+                    <span class="slide__subtitle">High-Performance Heavy Equipment Spare Parts for Maximum Operational Reliability</span>
+                    <h2 class="slide__title">Precision Engineered for Enduring Durability!</h2>
+                    <p class="slide__desc">Our extensive range of heavy equipment spare parts is meticulously crafted to withstand the harshest industrial environments. Designed for the rigorous demands of heavy machinery and mining applications, our components—including radiators, joints, conveyor belts, and more—deliver lasting quality, minimize downtime, and keep your operations running at peak efficiency.</p>
+                    <div class="d-flex">
+                      <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
+                        <i class="icon-arrow-right"></i><span>More About Us</span>
+                      </a>
+                      <a href="{{ route('user.about-us') }}" class="btn btn__white">More About Us!</a>
+                    </div>
+                  </div><!-- /.slide__body -->
+                </div><!-- /.col-xl-8 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div><!-- /.slide-item -->
+          <div class="slide-item align-v-h bg-overlay bg-overlay-2">
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-4.jpg') }}" alt="slide img"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                  <div class="slide__body">
+                    <span class="slide__subtitle">Advanced Pumping Solutions for Superior Industrial Fluid Performance</span>
+                    <h2 class="slide__title">Innovating Fluid Dynamics, Elevating Efficiency!</h2>
+                    <p class="slide__desc">At the forefront of fluid management technology, our advanced pumping solutions are engineered to meet diverse industrial demands. From precision dosing pumps to robust electric motor pumps, our state-of-the-art systems ensure exceptional performance, seamless operation, and enhanced productivity.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
