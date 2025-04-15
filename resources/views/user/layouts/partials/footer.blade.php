@@ -56,8 +56,7 @@
         </div><!-- /.col-xl-6 -->
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
             <div class="contact-panel">
-            <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm"
-                novalidate="novalidate">
+            <form class="contact-panel__form" method="GET" action="/send-email" id="quote-form" novalidate="novalidate">
                 <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <h4 class="contact-panel__title">Request A Quote</h4>
@@ -79,7 +78,7 @@
                 </div><!-- /.col-sm-6 -->
                 <div class="col-sm-6">
                     <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
+                    <input type="text" class="form-control" placeholder="Phone" id="contact-phone"
                         name="contact-phone">
                     </div>
                 </div><!-- /.col-sm-6 -->
@@ -89,10 +88,16 @@
                         name="contact-address" required>
                     </div>
                 </div><!-- /.col-sm-6 -->
+                <div class="col-sm-12">
+                    <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Company Name" id="company-name"
+                        name="company-name" required>
+                    </div>
+                </div><!-- /.col-sm-6 -->
                 <div class="col-sm-6">
                     <span class="font-weight-bold color-heading">Project Type</span>
                     <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control" id="project-type" name="project-type">
                         <option value="Commercial">Commercial</option>
                         <option value="Residential">Residential</option>
                         <option value="Industrial">Industrial</option>
@@ -105,7 +110,7 @@
                 <div class="col-sm-6">
                     <span class="font-weight-bold color-heading">Modular Units Needed</span>
                     <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control" id="modular-units" name="modular-units">
                         <option value="Office Spaces">Office Spaces</option>
                         <option value="Homes">Homes</option>
                         <option value="Warehouses">Warehouses</option>
@@ -133,21 +138,21 @@
                 <div class="col-sm-12 mb-3">
                     <span class="font-weight-bold color-heading">Estimated Timeline</span>
                     <div class="row">
-                    <div class="col-md-6">
-                        <input type="month" class="form-control" placeholder="start_date" id="start_date"
-                        name="start_date">
+                        <div class="col-md-6">
+                            <input type="month" class="form-control" placeholder="start_date" id="start_date"
+                            name="start_date">
                     </div>
-                    <div class="col-md-6">
-                        <input type="month" class="form-control" placeholder="end_date" id="end_date"
-                        name="end_date">
-                    </div>
+                        <div class="col-md-6">
+                            <input type="month" class="form-control" placeholder="end_date" id="end_date"
+                            name="end_date">
+                        </div>
                     </div>
                 </div><!-- /.col-sm-6 -->
                 <div class="col-sm-12">
                     <div class="form-group">
                     <span class="font-weight-bold color-heading">Preferred Contact Method</span>
 
-                    <select class="form-control">
+                    <select class="form-control" id="preferred-contact" name="preferred-contact">
                         <option value="all">All</option>
                         <option value="Email">Email</option>
                         <option value="phone">Phone</option>

@@ -617,9 +617,9 @@
       </section><!-- /.portfolio Layout 3 --> --}}
 
       <!-- ======================
-      Testimonials
+      Partner
       ========================= -->
-      <section class="testimonials-layout1 pb-0">
+      <section class="testimonials-layout1 pb-5">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -630,107 +630,70 @@
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
           <div class="row">
-            <div class="col-12">
-              <img src="{{ asset('assets/images/backgrounds/map2.png') }}" alt="map">
-              <!-- Testimonial #1 -->
-              <div class="testimonial-box">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/1.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    The team accelerated our commercial project without compromising on quality. Highly professional and timely service.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-              <!-- Testimonial #2 -->
-              <div class="testimonial-box">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/2.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    Impressed with the quality standards. From design to installation, everything met our expectations.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-              <!-- Testimonial #3 -->
-              <div class="testimonial-box">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/3.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    Responsive and innovative solutions helped us save time and costs on modular needs.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-              <!-- Testimonial #4 -->
-              <div class="testimonial-box testimonial-hover-left">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/4.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    As a contractor on large projects, we rely on their consistent quality and on-time delivery.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-              <!-- Testimonial #5 -->
-              <div class="testimonial-box testimonial-hover-left">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/5.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    Our modular project collaboration was outstanding, with top-notch technical support and fast production timelines.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-              <!-- Testimonial #6 -->
-              <div class="testimonial-box">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/1.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    They enabled us to create eco-friendly solutions, perfectly aligning with our green building goals.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-              <!-- Testimonial #7 -->
-              <div class="testimonial-box">
-                <div class="testimonial__thumb">
-                  <img src="{{ asset('assets/images/testimonials/thumbs/4.png') }}" alt="author thumb">
-                  <span class="pulsing-animation pulsing-animation-1"></span>
-                  <span class="pulsing-animation pulsing-animation-2"></span>
-                  <span class="pulsing-animation pulsing-animation-3"></span>
-                </div><!-- /.testimonial-thumb -->
-                <div class="testimonial__panel">
-                  <div class="testimonial__desc">
-                    Their expertise and attention to detail made a significant difference in our project’s success. Truly dependable partners.
-                  </div>
-                </div><!-- /.testimonial-panel -->
-              </div><!-- /. testimonial-box -->
-            </div><!-- /.col-12 -->
+            <div class="col">
+                <img src="{{ asset('assets/images/logos/MGMCOAL.png') }}" alt="Client" class="d-block mx-auto">
+            </div>
+            <div class="col">
+                <img src="{{ asset('assets/images/logos/alfaenergy.png') }}" alt="Client" class="d-block mx-auto">
+            </div>
+            <div class="col">
+                <img src="{{ asset('assets/images/logos/barotech-solusi.png') }}" alt="Client" class="d-block mx-auto">
+            </div>
+            <div class="col">
+                <img src="{{ asset('assets/images/logos/DJS.png') }}" alt="Client" class="d-block mx-auto">
+            </div>
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+      </section><!-- /.testimonials -->
+
+      <!-- ======================
+      Partner
+      ========================= -->
+      <section class="testimonials-layout1 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+              <div class="heading text-center mb-40">
+                <h2 class="heading__subtitle color-primary">Partners Building Success Together</h2>
+                <h3 class="heading__title">Our Partners Reveal How Collaboration Drives Success</h3>
+              </div><!-- /.heading -->
+            </div><!-- /.col-lg-6 -->
+          </div><!-- /.row -->
+          <div class="row">
+            <div class="carouselTickerLogos2 carouselTicker_vertical" id="slide-logos">
+                <ul class="carouselTicker__list list-logos">
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/UNILON.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/SUMITOMO.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/YUEMA.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/ITR.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/CLIK.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/WEARPRO.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/TELEVIC.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/VCOM.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/PULSAFEEDER.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/EBARA.png') }}" alt="Partner"></div>
+                    </li>
+                </ul>
+            </div>
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.testimonials -->
@@ -738,7 +701,7 @@
       <!-- ======================
       Cta Layout1
       ========================= -->
-      <section class="cta-layout1 pt-0">
+      <section class="cta-layout1 pt-5">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">

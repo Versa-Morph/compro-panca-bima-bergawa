@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendEmail;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -155,4 +158,25 @@ Route::name('user.')->middleware(['web'])->group(function () {
     Route::get('/request-quote', function() {
         return view('user.request-quote.index');
     })->name('request-quote');
+});
+
+Route::get('/send-email',function (Request $request) {
+    $data = [
+        'name' => $request->input('contact-name'),
+        'email' => $request->input('contact-email'),
+        'phone' => $request->input('contact-phone'),
+        'address' => $request->input('contact-address'),
+        'company' => $request->input('company-name'),
+        'project_type' => $request->input('project-type'),
+        'modular_units' => $request->input('modular-units'),
+        'city' => $request->input('city'),
+        'area' => $request->input('contact-Area'),
+        'start_date' => $request->input('start_date'),
+        'end_date' => $request->input('end_date'),
+        'preferred_contact' => $request->input('preferred-contact'),
+    ];
+
+    Mail::to('ariefarsaj@bimabergawa.com')->send(new SendEmail($data));
+
+    return response()->json(['success' => true]);
 });

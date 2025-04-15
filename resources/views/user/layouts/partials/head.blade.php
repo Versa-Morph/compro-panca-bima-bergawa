@@ -32,6 +32,29 @@
     body {
         top: 0 !important;
     }
+    .carouselTickerLogos2.carouselTicker_vertical .carouselTicker__item {
+        height: 82px;
+        width: 160px;
+        text-align: center;
+        margin-bottom: 0px;
+        overflow: hidden;
+        border-radius: 0px;
+        display: inline-block;
+        padding: 0px 20px;
+        line-height: 82px;
+    }
+    .carouselTickerLogos2.carouselTicker_vertical .carouselTicker__item img {
+        min-height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 42px;
+        vertical-align: middle;
+    }
+    #slide-logos {
+        height: 180px;
+        overflow: hidden;
+    }
+
 </style>
 <script type="application/ld+json">
     {
