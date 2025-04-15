@@ -176,7 +176,7 @@ Route::get('/send-email',function (Request $request) {
         'preferred_contact' => $request->input('preferred-contact'),
     ];
 
-    Mail::to('ariefarsaj@bimabergawa.com')->send(new SendEmail($data));
+    Mail::to('inquiry@bimabergawa.com')->send(new SendEmail($data));
 
     return response()->json(['success' => true]);
 });
