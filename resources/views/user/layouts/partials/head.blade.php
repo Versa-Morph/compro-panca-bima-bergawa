@@ -55,6 +55,9 @@
         overflow: hidden;
     }
 
+    .carouselTicker__wrap {
+        height: 100px !important;
+    }
 </style>
 <script type="application/ld+json">
     {
