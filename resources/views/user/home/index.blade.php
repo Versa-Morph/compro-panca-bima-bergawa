@@ -692,6 +692,21 @@
                     <li class="carouselTicker__item">
                         <div class="item-logo"><img src="{{ asset('assets/images/logos/EBARA.png') }}" alt="Partner"></div>
                     </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/IHI.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/HOLSET.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/CLOVER.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/BORGWARNER.png') }}" alt="Partner"></div>
+                    </li>
+                    <li class="carouselTicker__item">
+                        <div class="item-logo"><img src="{{ asset('assets/images/logos/GARRET.png') }}" alt="Partner"></div>
+                    </li>
                 </ul>
             </div>
           </div><!-- /.row -->
