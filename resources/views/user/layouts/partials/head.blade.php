@@ -50,13 +50,12 @@
         max-height: 42px;
         vertical-align: middle;
     }
+    .carouselTicker__wrap {
+        height: 100px !important;
+    }
     #slide-logos {
         height: 180px;
         overflow: hidden;
-    }
-
-    .carouselTicker__wrap {
-        height: 100px !important;
     }
 </style>
 <script type="application/ld+json">

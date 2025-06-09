@@ -5,12 +5,12 @@
        page title
     =========================== -->
     <section class="page-title page-title-layout2 bg-overlay bg-overlay-2 bg-parallax">
-        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/service/project-design-planning-4.jpg') }}" alt="background"></div>
+        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="background"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
               <h1 class="pagetitle__heading mb-0">{{ $service }}</h1>
-              <p class="pagetitle__desc">Comprehensive design and planning services, including architectural, engineering, and feasibility studies to ensure efficient and sustainable project execution.</p>
+              <p class="pagetitle__desc">Rugged solutions built for maximum durability and performance in the toughest industrial environments.</p>
               <div class="d-flex align-items-center mt-30">
                 <a href="{{ route('user.request-quote') }}" class="btn btn__primary mr-30">
                   <i class="icon-arrow-right"></i> <span>Request a quote</span>
@@ -50,28 +50,22 @@
                   <div class="widget-content">
                     <ul class="list-unstyled">
                       <li>
-                        <a href="{{ route('user.service.modular-construction') }}" class="active"><span>Modular Construction Solutions</span></a>
+                        <a href="{{ route('user.service.heavy-equipment-and-industrial-solutions') }}" class="active"><span>Heavy Equipment & Industrial Solutions</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.project-design') }}"><span>Project Design & Planning</span></a>
+                        <a href="{{ route('user.service.advanced-energy-and-electrical-systems') }}"><span>Advanced Energy & Electrical Systems</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.eco-friendly-building') }}"><span>Eco-Friendly & Sustainable Building Solutions</span></a>
+                        <a href="{{ route('user.service.smart-mobility-and-automotive-parts') }}"><span>Smart Mobility & Automotive Parts</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.custom-modular-manufacturing') }}"><span>Custom Modular Manufacturing</span></a>
+                        <a href="{{ route('user.service.instrumentation-and-measurement-solutions') }}"><span>Instrumentation & Measurement Solutions</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.supervise-installation-and-assembly') }}"><span>Supervise Installation & Assembly</span></a>
+                        <a href="{{ route('user.service.sustainable-building-material-modular-and-infrastructure') }}"><span>Sustainable Building Material, Modular & Infrastructure</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.turnkey-project-management') }}"><span>Turnkey Project Management</span></a>
-                      </li>
-                      <li>
-                        <a href="{{ route('user.service.supply-chain-sourcing') }}"><span>Supply Chain & Material Sourcing</span></a>
-                      </li>
-                      <li>
-                        <a href="{{ route('user.service.consultation-support') }}"><span>Consultation & Technical Support</span></a>
+                        <a href="{{ route('user.service.precision-digital-and-it-solutions') }}"><span>Precision Digital & IT Solutions</span></a>
                       </li>
                     </ul>
                   </div><!-- /.widget-content -->
@@ -108,36 +102,67 @@
             <div class="col-sm-12 col-md-12 col-lg-8">
               <div class="text__block mb-30">
                 <h5 class="text__block-title">Overview</h5>
-                <p class="text__block-desc">Project Design & Planning is the foundation of any successful construction project, ensuring every phase is meticulously organized to meet client objectives. From initial concept development to detailed blueprint creation, this service focuses on aligning the project’s goals with its budget, timeline, and design specifications. Our team of experienced designers and planners collaborates closely with clients to bring their vision to life, incorporating both aesthetic and functional requirements.</p>
-                <p class="text__block-desc">This service includes everything from site analysis and architectural design to engineering specifications and regulatory compliance. By thoroughly planning each aspect before construction begins, we mitigate risks, improve efficiency, and ensure that projects stay on track and within budget. With a strong focus on quality and precision, our Project Design & Planning services lay the groundwork for successful project execution.</p>
+                <p class="text__block-desc">In a world where every second and byte counts, precision-driven digital solutions are essential. Our Precision Digital & IT Solutions are crafted to streamline operations, enhance decision-making, and secure digital assets across industries.</p>
+                <p class="text__block-desc">From custom software development to data analytics, cloud architecture, and cybersecurity, we deliver integrated IT systems that are scalable, reliable, and aligned with your business goals.</p>
               </div><!-- /.text-block -->
 
-              <div class="row">
-                <!-- gallery item #1 -->
-                <div class="col-sm-6">
-                  <div class="gallery-item">
-                    <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/project-design-planning-1.jpg') }}">
-                      <img src="{{ asset('assets/images/pbb-img/service/project-design-planning-1.jpg') }}" alt="gallery img">
-                    </a>
-                  </div><!-- /.gallery-item -->
-                </div><!-- /.col-sm-6 -->
-                <!-- gallery item #2 -->
-                <div class="col-sm-6">
-                  <div class="gallery-item">
-                    <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/project-design-planning-2.jpg') }}">
-                      <img src="{{ asset('assets/images/pbb-img/service/project-design-planning-2.jpg') }}" alt="gallery img">
-                    </a>
-                  </div><!-- /.gallery-item -->
-                </div><!-- /.col-sm-6 -->
-              </div><!-- /.row -->
+              <div class="portfolio-layout3">
+                    <div id="filtered-items-wrap">
+                        <div class="slick-carousel carousel-arrows-light"
+                            data-slick='{"slidesToShow": 2, "slidesToScroll": 2, "arrows": true, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1, "slidesToScroll": 1}}]}'>
+                            <!-- portfolio item #1 -->
+                            <div class="mix filter-infractures pt-4">
+                                <div class="portfolio-item">
+                                    <div class="portfolio__img">
+                                        <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
+                                    </div><!-- /.portfolio-img -->
+                                    <div class="portfolio__body">
+                                        <div class="portfolio__cat">
+                                        </div><!-- /.portfolio-cat -->
+                                        <h4 class="portfolio__title">Software & IoT</h4>
+                                        <p class="portfolio__desc">Intelligent software and Internet of Things (IoT) solutions that connect devices, automate processes, and deliver real-time insights for smarter operations.</p>
+                                    </div><!-- /.portfolio__body -->
+                                </div><!-- /.portfolio-item -->
+                            </div><!-- /.col-lg-4 -->
+
+                            <div class="mix filter-infractures pt-4">
+                                <div class="portfolio-item">
+                                    <div class="portfolio__img">
+                                        <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
+                                    </div><!-- /.portfolio-img -->
+                                    <div class="portfolio__body">
+                                        <div class="portfolio__cat">
+                                        </div><!-- /.portfolio-cat -->
+                                        <h4 class="portfolio__title">Control Systems</h4>
+                                        <p class="portfolio__desc">Advanced control systems engineered for precision, reliability, and automation—optimizing performance across industrial and digital environments.</p>
+                                    </div><!-- /.portfolio__body -->
+                                </div><!-- /.portfolio-item -->
+                            </div><!-- /.col-lg-4 -->
+
+                            <div class="mix filter-infractures pt-4">
+                                <div class="portfolio-item">
+                                    <div class="portfolio__img">
+                                        <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
+                                    </div><!-- /.portfolio-img -->
+                                    <div class="portfolio__body">
+                                        <div class="portfolio__cat">
+                                        </div><!-- /.portfolio-cat -->
+                                        <h4 class="portfolio__title">Cloud & Server Solutions</h4>
+                                        <p class="portfolio__desc">Scalable cloud infrastructure and robust server solutions that ensure secure data management, seamless access, and high-performance computing.</p>
+                                    </div><!-- /.portfolio__body -->
+                                </div><!-- /.portfolio-item -->
+                            </div><!-- /.col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+              </div>
 
               <div class="text__block mb-30">
                 <h5 class="text__block-title">How It Works?!</h5>
-                <p class="text__block-desc">The process begins with a comprehensive consultation where we gather insights about the client’s vision, budget, and project goals. This allows us to create a customized design plan that encompasses every detail, from spatial layouts to material selection. Our design team then drafts preliminary concepts, working closely with clients to refine each aspect to their satisfaction.</p>
-                <p class="text__block-desc">Once the design is approved, our planners outline a structured timeline and workflow to keep the project progressing smoothly. This planning phase covers everything from resource allocation and permits to budgeting and milestone tracking, ensuring every requirement is accounted for before construction begins.</p>
+                <p class="text__block-desc">We start by understanding your digital challenges and objectives, then design tailor-made systems using agile methodologies and modern technology stacks. Each solution is built with scalability and interoperability in mind.</p>
+                <p class="text__block-desc">Our services range from backend architecture and cloud migration to AI-driven insights and IT support. Every solution undergoes rigorous testing and optimization to ensure peak accuracy, speed, and performance.</p>
               </div>
               <div class="video-banner mb-70">
-                <img src="{{ asset('assets/images/pbb-img/service/project-design-planning-3.jpg') }}" alt="banner">
+                <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-3.jpg') }}" alt="banner">
                 {{-- <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                   <div class="video__player">
                     <i class="fa fa-play"></i>
@@ -151,7 +176,7 @@
               </div><!-- /.video-banner -->
               <div class="text__block mb-30">
                 <h5 class="text__block-title">Why Us!</h5>
-                <p class="text__block-desc">Choosing us for Project Design & Planning guarantees a seamless and strategic approach that sets the project up for success from the start. With our experienced team and client-centered approach, we deliver thoughtful, high-quality designs that balance creativity and practicality. Here’s what sets us apart:</p>
+                <p class="text__block-desc">We combine technical mastery with business insight, delivering IT systems that solve real problems and drive measurable value.</p>
               </div>
               <div class="row features-layout3">
                 <!-- Feature item #1 -->
@@ -160,8 +185,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-hydro-power3"></i>
                     </div> --}}
-                    <h4 class="feature__title">Expert Collaboration</h4>
-                    <p class="feature__desc">We work hand-in-hand with clients, incorporating their feedback to create designs that meet both aesthetic preferences and functional requirements.</p>
+                    <h4 class="feature__title">Tailored Solutions</h4>
+                    <p class="feature__desc">Built to meet your specific workflow, industry, and user experience needs.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -174,8 +199,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-biosphere"></i>
                     </div> --}}
-                    <h4 class="feature__title">Comprehensive Planning</h4>
-                    <p class="feature__desc">Our detailed planning process covers every angle, from budgeting and scheduling to regulatory compliance, reducing delays and unexpected costs.</p>
+                    <h4 class="feature__title">Secure by Design</h4>
+                    <p class="feature__desc">Embedded cybersecurity practices from architecture to deployment.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -188,8 +213,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-eco-house"></i>
                     </div> --}}
-                    <h4 class="feature__title">Innovation and Efficiency</h4>
-                    <p class="feature__desc">We use the latest design tools and methodologies to develop efficient, sustainable plans that enhance the overall project experience.</p>
+                    <h4 class="feature__title">Data Driven</h4>
+                    <p class="feature__desc">Advanced analytics that turn data into actionable business intelligence.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -202,31 +227,31 @@
               <div id="accordion" class="mb-60">
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse1">
-                    <a class="accordion-item__title" href="#!">How does early planning benefit the project?</a>
+                    <a class="accordion-item__title" href="#!">What makes your IT solutions “precision” focused?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse1" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Thorough planning minimizes risks, optimizes resource allocation, and ensures that the project progresses on schedule and within budget.</p>
+                      <p>Every system is built with strict performance benchmarks, ensuring high accuracy, reliability, and optimized processes for your operations.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse2">
-                    <a class="accordion-item__title" href="#!">What design tools are used?</a>
+                    <a class="accordion-item__title" href="#!">Can I scale the solutions as my business grows?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse2" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Our team utilizes advanced design software and 3D modeling tools to create detailed and accurate visualizations, aiding in efficient project planning.</p>
+                      <p>Yes, our digital infrastructure and software are modular, allowing seamless upgrades and expansion without disrupting existing workflows.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse3">
-                    <a class="accordion-item__title" href="#!">Can this service accommodate unique design needs?</a>
+                    <a class="accordion-item__title" href="#!">Do you offer post-deployment support and updates?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse3" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Absolutely. Our collaborative process allows for custom designs tailored to each project’s specifications, creating unique, functional spaces that meet client needs.</p>
+                      <p>Absolutely, we provide continuous support, performance monitoring, and regular updates to keep your systems secure and efficient.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->

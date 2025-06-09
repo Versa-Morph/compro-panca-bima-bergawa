@@ -53,26 +53,27 @@
                   <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Modular Construction Solutions</h4>
-                  <p class="service__desc">Design and production of high-quality modular units to meet specific client needs and project requirements.</p>
-                  <a href="{{ route('user.service.modular-construction') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Heavy Equipment & Industrial Solutions</h4>
+                  <p class="service__desc">Rugged solutions built for maximum durability and performance in the toughest industrial environments.</p>
+                  <a href="{{ route('user.service.heavy-equipment-and-industrial-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
                 </div><!-- /.service__body -->
               </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
-            <!-- service item #2 -->
             <!-- service item #1 -->
+
+            <!-- service item #2 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/project-design-planning-2.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Project Design & Planning &nbsp;&nbsp;&nbsp;&nbsp;</h4>
-                  <p class="service__desc">Comprehensive design and planning services, including architectural, engineering, and feasibility studies to ensure efficient and sustainable project execution.</p>
-                  <a href="{{ route('user.service.project-design') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Advanced Energy & Electrical Systems</h4>
+                  <p class="service__desc">Smart energy and electrical systems built for efficiency, safety, and scalable performance.</p>
+                  <a href="{{ route('user.service.advanced-energy-and-electrical-systems') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -80,15 +81,17 @@
               </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
             <!-- service item #2 -->
+
+            <!-- service item #3 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/eco-friendly-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Eco-Friendly & Sustainable Building Solutions</h4>
-                  <p class="service__desc">Use of environmentally friendly materials and practices, incorporating energy-efficient designs and renewable energy options.</p>
-                  <a href="{{ route('user.service.eco-friendly-building') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Smart Mobility & Automotive Parts</h4>
+                  <p class="service__desc">Innovative automotive components crafted for intelligent, efficient, and future-ready mobility.</p>
+                  <a href="{{ route('user.service.smart-mobility-and-automotive-parts') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -96,15 +99,17 @@
               </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
             <!-- service item #3 -->
+
+            <!-- service item #4 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Custom Modular Manufacturing</h4>
-                  <p class="service__desc">Production of custom modular units that meet international standards, offering flexibility in size, layout, and purpose to align with diverse project needs.</p>
-                  <a href="{{ route('user.service.custom-modular-manufacturing') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Instrumentation & Measurement Solutions</h4>
+                  <p class="service__desc">High-precision tools for accurate measurement, monitoring, and industrial optimization.</p>
+                  <a href="{{ route('user.service.instrumentation-and-measurement-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -112,15 +117,17 @@
               </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
             <!-- service item #4 -->
+
+            <!-- service item #5 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/on-site-installation-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Supervise Installation & Assembly</h4>
-                  <p class="service__desc">Comprehensive supervision services with on-site support and quality assurance integration of modular components.</p>
-                  <a href="{{ route('user.service.supervise-installation-and-assembly') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Sustainable Building Material, Modular & Infrastructure</h4>
+                  <p class="service__desc">Eco-friendly materials and modular systems built for fast, efficient, and sustainable development.</p>
+                  <a href="{{ route('user.service.heavy-equipment-and-industrial-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -128,15 +135,17 @@
               </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
             <!-- service item #5 -->
+
+            <!-- service item #6 -->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/turnkey-project-management-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
-                  <h4 class="service__title">Turnkey Project Management &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
-                  <p class="service__desc">Full management of modular construction projects from concept through completion, including timelines, logistics, and coordination with other contractors.</p>
-                  <a href="{{ route('user.service.turnkey-project-management') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <h4 class="service__title">Precision Digital & IT Solutions</h4>
+                  <p class="service__desc">Advanced digital and IT solutions that power intelligent automation and data-driven transformation.</p>
+                  <a href="{{ route('user.service.precision-digital-and-it-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>
@@ -144,36 +153,6 @@
               </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
             <!-- service item #6 -->
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="service-item">
-                <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/supply-chain-3.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
-                </div><!-- /.service__img -->
-                <div class="service__body">
-                  <h4 class="service__title">Supply Chain & Material Sourcing</h4>
-                  <p class="service__desc">Efficient procurement and sourcing of high-quality materials for modular construction, reducing lead times and maintaining strict quality standards.</p>
-                  <a href="{{ route('user.service.supply-chain-sourcing') }}" class="btn btn__secondary btn__outlined btn__custom">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.service__body -->
-              </div><!-- /.service-item -->
-            </div><!-- /.col-lg-4 -->
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="service-item">
-                <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/consultation-support-3.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
-                </div><!-- /.service__img -->
-                <div class="service__body">
-                  <h4 class="service__title">Consultation & Technical Support</h4>
-                  <p class="service__desc">Professional consultation and technical support throughout the project lifecycle to address client needs, from planning to post-construction maintenance.</p>
-                  <a href="{{ route('user.service.consultation-support') }}" class="btn btn__secondary btn__outlined btn__custom">
-                    <span>Read More</span>
-                    <i class="icon-arrow-right"></i>
-                  </a>
-                </div><!-- /.service__body -->
-              </div><!-- /.service-item -->
-            </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.Services Layout 1 -->

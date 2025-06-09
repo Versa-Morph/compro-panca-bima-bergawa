@@ -22,6 +22,11 @@
             direction: "prev"
         });
     });
+    $("#slide-service").each(function () {
+        $(this).carouselTicker({
+            direction: "prev"
+        });
+    });
 
     document.getElementById("quote-form").addEventListener("submit", function (e) {
         e.preventDefault(); // stop default form submit

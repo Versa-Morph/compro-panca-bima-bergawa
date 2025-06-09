@@ -5,12 +5,12 @@
        page title
     =========================== -->
     <section class="page-title page-title-layout2 bg-overlay bg-overlay-2 bg-parallax">
-        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-1.jpg') }}" alt="background"></div>
+        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="background"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
               <h1 class="pagetitle__heading mb-0">{{ $service }}</h1>
-              <p class="pagetitle__desc">Production of custom modular units that meet international standards, offering flexibility in size, layout, and purpose to align with diverse project needs.</p>
+              <p class="pagetitle__desc">Rugged solutions built for maximum durability and performance in the toughest industrial environments.</p>
               <div class="d-flex align-items-center mt-30">
                 <a href="{{ route('user.request-quote') }}" class="btn btn__primary mr-30">
                   <i class="icon-arrow-right"></i> <span>Request a quote</span>
@@ -50,28 +50,22 @@
                   <div class="widget-content">
                     <ul class="list-unstyled">
                       <li>
-                        <a href="{{ route('user.service.modular-construction') }}" class="active"><span>Modular Construction Solutions</span></a>
+                        <a href="{{ route('user.service.heavy-equipment-and-industrial-solutions') }}" class="active"><span>Heavy Equipment & Industrial Solutions</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.project-design') }}"><span>Project Design & Planning</span></a>
+                        <a href="{{ route('user.service.advanced-energy-and-electrical-systems') }}"><span>Advanced Energy & Electrical Systems</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.eco-friendly-building') }}"><span>Eco-Friendly & Sustainable Building Solutions</span></a>
+                        <a href="{{ route('user.service.smart-mobility-and-automotive-parts') }}"><span>Smart Mobility & Automotive Parts</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.custom-modular-manufacturing') }}"><span>Custom Modular Manufacturing</span></a>
+                        <a href="{{ route('user.service.instrumentation-and-measurement-solutions') }}"><span>Instrumentation & Measurement Solutions</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.supervise-installation-and-assembly') }}"><span>Supervise Installation & Assembly</span></a>
+                        <a href="{{ route('user.service.sustainable-building-material-modular-and-infrastructure') }}"><span>Sustainable Building Material, Modular & Infrastructure</span></a>
                       </li>
                       <li>
-                        <a href="{{ route('user.service.turnkey-project-management') }}"><span>Turnkey Project Management</span></a>
-                      </li>
-                      <li>
-                        <a href="{{ route('user.service.supply-chain-sourcing') }}"><span>Supply Chain & Material Sourcing</span></a>
-                      </li>
-                      <li>
-                        <a href="{{ route('user.service.consultation-support') }}"><span>Consultation & Technical Support</span></a>
+                        <a href="{{ route('user.service.precision-digital-and-it-solutions') }}"><span>Precision Digital & IT Solutions</span></a>
                       </li>
                     </ul>
                   </div><!-- /.widget-content -->
@@ -108,36 +102,67 @@
             <div class="col-sm-12 col-md-12 col-lg-8">
               <div class="text__block mb-30">
                 <h5 class="text__block-title">Overview</h5>
-                <p class="text__block-desc">Our Custom Modular Manufacturing service offers fully customizable modular solutions designed to meet the unique needs of diverse industries, including residential, commercial, and industrial sectors. This approach allows clients to streamline construction timelines, reduce on-site labor, and ensure precise quality control by assembling modules in a factory-controlled environment before delivering them to the project site. With our expertise, clients receive adaptable, high-quality modular units that are designed for longevity and easy installation.</p>
-                <p class="text__block-desc">By embracing modular construction, clients benefit from cost-effective, flexible solutions that meet high standards of durability and efficiency. Each module is crafted to seamlessly integrate with existing structures or operate independently, providing an ideal solution for projects with tight schedules or specialized requirements.</p>
+                <p class="text__block-desc">Modern industries demand energy systems that are not only powerful but also intelligent and sustainable. Our Advanced Energy & Electrical Systems are engineered to deliver consistent, safe, and optimized power to fuel operations of any scale.</p>
+                <p class="text__block-desc">Whether it's powering factories, infrastructure, or integrated systems, we offer solutions that ensure efficient energy use, minimal loss, and full regulatory compliance. Built for scalability and adaptability, our systems evolve with your business needs.</p>
               </div><!-- /.text-block -->
 
-              <div class="row">
-                <!-- gallery item #1 -->
-                <div class="col-sm-6">
-                  <div class="gallery-item">
-                    <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-1.jpg') }}">
-                      <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-4.jpg') }}" alt="gallery img">
-                    </a>
-                  </div><!-- /.gallery-item -->
-                </div><!-- /.col-sm-6 -->
-                <!-- gallery item #2 -->
-                <div class="col-sm-6">
-                  <div class="gallery-item">
-                    <a class="popup-gallery-item" href="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}">
-                      <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-2.jpg') }}" alt="gallery img">
-                    </a>
-                  </div><!-- /.gallery-item -->
-                </div><!-- /.col-sm-6 -->
-              </div><!-- /.row -->
+              <div class="portfolio-layout3">
+                    <div id="filtered-items-wrap">
+                        <div class="slick-carousel carousel-arrows-light"
+                            data-slick='{"slidesToShow": 2, "slidesToScroll": 2, "arrows": true, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 1, "slidesToScroll": 1}}]}'>
+                            <!-- portfolio item #1 -->
+                            <div class="mix filter-infractures pt-4">
+                                <div class="portfolio-item">
+                                    <div class="portfolio__img">
+                                        <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
+                                    </div><!-- /.portfolio-img -->
+                                    <div class="portfolio__body">
+                                        <div class="portfolio__cat">
+                                        </div><!-- /.portfolio-cat -->
+                                        <h4 class="portfolio__title">Electrical Panel</h4>
+                                        <p class="portfolio__desc">Custom-engineered electrical panels for safe and efficient power distribution, control, and protection across industrial and commercial systems.</p>
+                                    </div><!-- /.portfolio__body -->
+                                </div><!-- /.portfolio-item -->
+                            </div><!-- /.col-lg-4 -->
+
+                            <div class="mix filter-infractures pt-4">
+                                <div class="portfolio-item">
+                                    <div class="portfolio__img">
+                                        <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
+                                    </div><!-- /.portfolio-img -->
+                                    <div class="portfolio__body">
+                                        <div class="portfolio__cat">
+                                        </div><!-- /.portfolio-cat -->
+                                        <h4 class="portfolio__title">UPS (Power Backup)</h4>
+                                        <p class="portfolio__desc">Uninterruptible Power Supply systems that ensure continuous operation and prevent data loss during power outages or voltage fluctuations.</p>
+                                    </div><!-- /.portfolio__body -->
+                                </div><!-- /.portfolio-item -->
+                            </div><!-- /.col-lg-4 -->
+
+                            <div class="mix filter-infractures pt-4">
+                                <div class="portfolio-item">
+                                    <div class="portfolio__img">
+                                        <img src="{{ asset('assets/images/portfolio/grid/1.jpg') }}" alt="portfolio img">
+                                    </div><!-- /.portfolio-img -->
+                                    <div class="portfolio__body">
+                                        <div class="portfolio__cat">
+                                        </div><!-- /.portfolio-cat -->
+                                        <h4 class="portfolio__title">Renewable Energy Components</h4>
+                                        <p class="portfolio__desc">Specialized components designed to harness, store, and manage energy from renewable sources such as solar, wind, and hybrid systems.</p>
+                                    </div><!-- /.portfolio__body -->
+                                </div><!-- /.portfolio-item -->
+                            </div><!-- /.col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+              </div>
 
               <div class="text__block mb-30">
                 <h5 class="text__block-title">How It Works?!</h5>
-                <p class="text__block-desc">We start by collaborating with clients to understand their design and functionality needs, which form the foundation for each custom module. Our engineering and design teams then develop modular blueprints that align with these specifications, ensuring both form and function are optimized.</p>
-                <p class="text__block-desc">After design approval, our team moves to production, where each module is built in our factory with strict quality control measures. Once complete, the modules are transported to the project site for quick and easy assembly, drastically reducing construction time and on-site disruption.</p>
+                <p class="text__block-desc">We begin by analyzing your power demands, existing infrastructure, and future scalability goals. This helps us design and configure an energy architecture that ensures seamless distribution, smart monitoring, and energy efficiency.</p>
+                <p class="text__block-desc">Our integrated systems include advanced switchgear, power distribution units, energy storage, and real-time analytics—offering a fully connected energy ecosystem. Whether it's grid-tied or standalone, we ensure every solution is optimized for safety and peak performance.</p>
               </div>
               <div class="video-banner mb-70">
-                <img src="{{ asset('assets/images/pbb-img/service/custom-modular-manufacturing-3.jpg') }}" alt="banner">
+                <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-3.jpg') }}" alt="banner">
                 {{-- <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
                   <div class="video__player">
                     <i class="fa fa-play"></i>
@@ -151,7 +176,7 @@
               </div><!-- /.video-banner -->
               <div class="text__block mb-30">
                 <h5 class="text__block-title">Why Us!</h5>
-                <p class="text__block-desc">Our Custom Modular Manufacturing service combines advanced manufacturing techniques with a commitment to quality, enabling us to deliver reliable, custom-built solutions for any project. Our process is efficient, adaptable, and designed to meet the exact specifications of each client. Here’s why clients rely on us:</p>
+                <p class="text__block-desc">We offer more than just power, we deliver intelligence, stability, and foresight. Our solutions are built to reduce waste, maximize efficiency, and keep your operations running smoothly.</p>
               </div>
               <div class="row features-layout3">
                 <!-- Feature item #1 -->
@@ -160,8 +185,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-hydro-power3"></i>
                     </div> --}}
-                    <h4 class="feature__title">Precision Engineering</h4>
-                    <p class="feature__desc">Our factory-controlled environment allows for precise construction, ensuring each module meets stringent quality standards.</p>
+                    <h4 class="feature__title">Smart & Sustainable</h4>
+                    <p class="feature__desc">Designed to reduce energy waste and carbon footprint while maximizing uptime.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -174,8 +199,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-biosphere"></i>
                     </div> --}}
-                    <h4 class="feature__title">Tailored to Your Needs</h4>
-                    <p class="feature__desc">We customize every aspect of the module to match the client’s project requirements, providing unparalleled flexibility.</p>
+                    <h4 class="feature__title">Scalable Architecture</h4>
+                    <p class="feature__desc">Modular systems that grow as your energy demands increase.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -188,8 +213,8 @@
                     {{-- <div class="feature__icon">
                       <i class="icon-eco-house"></i>
                     </div> --}}
-                    <h4 class="feature__title">Efficient Delivery & Installation</h4>
-                    <p class="feature__desc">Our streamlined production and transport process significantly reduce on-site labor, time, and associated costs.</p>
+                    <h4 class="feature__title">Real-Time Insights</h4>
+                    <p class="feature__desc">Continuous monitoring and diagnostics to keep your system optimized 24/7.</p>
                     {{-- <a href="#" class="btn__link">
                       <i class="icon-arrow-right icon-filled"></i>
                       <span>Explore More</span>
@@ -202,31 +227,31 @@
               <div id="accordion" class="mb-60">
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse1">
-                    <a class="accordion-item__title" href="#!">How does modular manufacturing reduce costs?</a>
+                    <a class="accordion-item__title" href="#!">What makes your energy systems “advanced”?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse1" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Factory-controlled production minimizes material waste, shortens timelines, and lowers on-site labor costs, making it a cost-effective construction option.</p>
+                      <p>They combine intelligent control, data analytics, and energy-efficient components to deliver smarter, safer, and more adaptable power systems.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse2">
-                    <a class="accordion-item__title" href="#!">What customization options are available?</a>
+                    <a class="accordion-item__title" href="#!">Can this system support renewable energy integration?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse2" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>We offer extensive customization for dimensions, materials, and finishes, allowing each module to meet specific aesthetic and functional needs.</p>
+                      <p>Yes, our systems are designed to seamlessly integrate solar, wind, and other renewable energy sources with grid or off-grid flexibility.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
                 <div class="accordion-item">
                   <div class="accordion-item__header" data-toggle="collapse" data-target="#collapse3">
-                    <a class="accordion-item__title" href="#!">Why choose modular over traditional construction?</a>
+                    <a class="accordion-item__title" href="#!">How do I monitor system performance?</a>
                   </div><!-- /.accordion-item-header -->
                   <div id="collapse3" class="collapse" data-parent="#accordion">
                     <div class="accordion-item__body">
-                      <p>Modular solutions are faster, often more affordable, and maintain consistent quality through controlled manufacturing environments, resulting in a reliable and flexible alternative to traditional building methods.</p>
+                      <p>With our integrated dashboard and IoT-based monitoring tools, you gain real-time visibility into power usage, performance metrics, and potential issues.</p>
                     </div><!-- /.accordion-item-body -->
                   </div>
                 </div><!-- /.accordion-item -->
@@ -235,4 +260,5 @@
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.Text Content Section -->
+
 @endsection

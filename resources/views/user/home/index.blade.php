@@ -24,9 +24,9 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">High-Performance Heavy Equipment Spare Parts for Maximum Operational Reliability</span>
-                    <h2 class="slide__title">Precision Engineered for Enduring Durability!</h2>
-                    <p class="slide__desc">Our extensive range of heavy equipment spare parts is meticulously crafted to withstand the harshest industrial environments. Designed for the rigorous demands of heavy machinery and mining applications, our components—including radiators, joints, conveyor belts, and more—deliver lasting quality, minimize downtime, and keep your operations running at peak efficiency.</p>
+                    <span class="slide__subtitle">Rugged solutions built for maximum durability and performance in the toughest industrial environments</span>
+                    <h2 class="slide__title">Built to Endure, Engineered to Perform</h2>
+                    <p class="slide__desc">Our heavy equipment and industrial solutions are designed to thrive in demanding conditions. With robust construction and advanced engineering, they deliver reliable performance and long service life. Perfect for industries that require strength, precision, and minimal downtime.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -44,9 +44,9 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">Advanced Pumping Solutions for Superior Industrial Fluid Performance</span>
-                    <h2 class="slide__title">Innovating Fluid Dynamics, Elevating Efficiency!</h2>
-                    <p class="slide__desc">At the forefront of fluid management technology, our advanced pumping solutions are engineered to meet diverse industrial demands. From precision dosing pumps to robust electric motor pumps, our state-of-the-art systems ensure exceptional performance, seamless operation, and enhanced productivity.</p>
+                    <span class="slide__subtitle">Smart energy and electrical systems built for efficiency, safety, and scalable performance</span>
+                    <h2 class="slide__title">Smart Power for a Smarter Future</h2>
+                    <p class="slide__desc">Our advanced energy and electrical systems empower operations with intelligent, efficient, and secure power management. From distribution to control, every component is engineered for maximum safety and flexibility. Ideal for modern infrastructures seeking sustainable and resilient energy solutions.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -64,9 +64,9 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">Modular Solutions for Commercial, Residential & Industrial Projects</span>
-                    <h2 class="slide__title">Building the Future, One Module at a Time!</h2>
-                    <p class="slide__desc">As a leader in modular construction, we offer high-quality, customizable modular solutions for all types of projects. Our products are designed to be delivered swiftly and efficiently, whether for urban developments or remote locations.</p>
+                    <span class="slide__subtitle">Innovative automotive components crafted for intelligent, efficient, and future-ready mobility</span>
+                    <h2 class="slide__title">Driving Innovation, Powering Mobility</h2>
+                    <p class="slide__desc">Our smart mobility solutions bring next-generation performance to automotive systems. From safety-enhancing features to energy-efficient designs, each part is built to adapt to tomorrow’s transport needs. We help move industries toward a smarter and more connected future.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -84,9 +84,9 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">Sustainable Modular Units for Every Industry</span>
-                    <h2 class="slide__title">Transforming Spaces with Quality and Innovation!</h2>
-                    <p class="slide__desc">We are committed to providing sustainable, high-performance modular units for commercial, residential, and industrial applications. Our global partnerships allow us to offer advanced modular solutions with rapid delivery and installation.</p>
+                    <span class="slide__subtitle">High-precision tools for accurate measurement, monitoring, and industrial optimization</span>
+                    <h2 class="slide__title">Measure with Confidence, Act with Precision</h2>
+                    <p class="slide__desc">Our instrumentation and measurement systems deliver real-time accuracy you can trust. Designed for critical industries, they ensure consistent quality and reliable insights. Whether for process control or compliance, our tools help optimize performance and decision-making.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -104,9 +104,29 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="slide__body">
-                    <span class="slide__subtitle">High-Performance Modular Systems for All Needs</span>
-                    <h2 class="slide__title">Innovation Meets Efficiency in Every Unit!</h2>
-                    <p class="slide__desc">With exclusive access to the latest modular technology, we deliver reliable and cost-effective modular systems tailored to your project requirements. Experience unmatched quality and fast deployment for your construction needs.</p>
+                    <span class="slide__subtitle">Eco-friendly materials and modular systems built for fast, efficient, and sustainable development</span>
+                    <h2 class="slide__title">Build Smart, Live Sustainable</h2>
+                    <p class="slide__desc">Our sustainable building materials and modular infrastructure solutions streamline construction while reducing environmental impact. Designed for flexibility and rapid deployment, they support modern development goals. Perfect for green buildings and infrastructure that balances speed with responsibility.</p>
+                    <div class="d-flex">
+                      <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
+                        <i class="icon-arrow-right"></i><span>More About Us</span>
+                      </a>
+                      <a href="{{ route('user.about-us') }}" class="btn btn__white">More About Us!</a>
+                    </div>
+                  </div><!-- /.slide__body -->
+                </div><!-- /.col-xl-8 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div><!-- /.slide-item -->
+          <div class="slide-item align-v-h bg-overlay">
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-3.jpg') }}" alt="slide img"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                  <div class="slide__body">
+                    <span class="slide__subtitle">Advanced digital and IT solutions that power intelligent automation and data-driven transformation</span>
+                    <h2 class="slide__title">Digital Precision, Business Vision</h2>
+                    <p class="slide__desc">We deliver cutting-edge digital and IT systems that transform the way businesses operate. From smart automation to deep analytics, our solutions unlock efficiency, scalability, and innovation. Built for organizations ready to thrive in a digitally connected world.</p>
                     <div class="d-flex">
                       <a href="{{ route('user.service') }}" class="btn btn__primary mr-30">
                         <i class="icon-arrow-right"></i><span>More About Us</span>
@@ -236,11 +256,11 @@
                     <img src="{{ asset('assets/images/pbb-img/modular-solution/advance-pump.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Advanced Pump Systems</h4>
+                    <h4 class="service__title">Heavy Equipment & Industrial Solutions</h4>
                     <p class="service__desc">
-                        Perfect for industries demanding precision, our state-of-the-art pump systems deliver reliable fluid management tailored to your operational needs ensuring high performance and minimal downtime.
+                        Engineered for strength and durability, our heavy equipment and industrial solutions are built to handle the most demanding operations, delivering unmatched performance, efficiency, and longevity in tough environments.
                     </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.heavy-equipment-and-industrial-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a> --}}
@@ -251,11 +271,11 @@
                     <img src="{{ asset('assets/images/pbb-img/modular-solution/Heavy-Equipment-Spare-Parts.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Heavy Equipment Spare Parts</h4>
+                    <h4 class="service__title">Advanced Energy & Electrical Systems</h4>
                     <p class="service__desc">
-                        Engineered to endure the harshest conditions, our durable spare parts for heavy machinery and mining applications keep your operations running smoothly providing unwavering performance when you need it most.
+                        Powering the future with intelligent design, our advanced energy and electrical systems provide safe, efficient, and scalable solutions for energy distribution and control across diverse industrial landscapes.
                     </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.advanced-energy-and-electrical-systems') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a> --}}
@@ -266,11 +286,11 @@
                     <img src="{{ asset('assets/images/pbb-img/modular-solution/rapid-build.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Rapid Build Commercial Units</h4>
+                    <h4 class="service__title">Smart Mobility & Automotive Parts</h4>
                     <p class="service__desc">
-                        Perfect for businesses needing swift setups, our commercial units offer flexible designs that cater to retail, office spaces, and more—delivered and installed within weeks.
+                        Powering the future with intelligent design, our advanced energy and electrical systems provide safe, efficient, and scalable solutions for energy distribution and control across diverse industrial landscapes.
                     </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.smart-mobility-and-automotive-parts') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a> --}}
@@ -282,11 +302,11 @@
                     <img src="{{ asset('assets/images/pbb-img/modular-solution/residensial.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Residential Modular Homes</h4>
+                    <h4 class="service__title">Instrumentation & Measurement Solutions</h4>
                     <p class="service__desc">
-                        Tailored for modern living, our residential packages provide sustainable, energy-efficient homes that can be customized to suit any lifestyle or location.
+                        Precision at its core, our instrumentation and measurement solutions deliver accurate, real-time insights essential for process optimization, quality assurance, and regulatory compliance across industries.
                     </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.instrumentation-and-measurement-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a> --}}
@@ -298,11 +318,11 @@
                     <img src="{{ asset('assets/images/pbb-img/modular-solution/industrial.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Industrial Modular Complexes</h4>
+                    <h4 class="service__title">Sustainable Building Material, Modular & Infrastructure</h4>
                     <p class="service__desc">
-                        Designed for factories, warehouses, and industrial facilities, our modular complexes are built to withstand heavy usage while offering scalable and adaptable spaces.
+                        Built for resilience and sustainability, our innovative building materials and modular infrastructure systems accelerate construction timelines while reducing environmental impact, promoting green and efficient development.
                     </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.sustainable-building-material-modular-and-infrastructure') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a> --}}
@@ -314,43 +334,11 @@
                     <img src="{{ asset('assets/images/pbb-img/modular-solution/education&healthcare.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
-                    <h4 class="service__title">Educational and Healthcare Facilities</h4>
+                    <h4 class="service__title">Precision Digital & IT Solutions</h4>
                     <p class="service__desc">
-                        Delivering high-quality, safe, and functional spaces for schools, clinics, and hospitals with rapid deployment to meet urgent community needs.
+                        Transforming operations through innovation, our precision digital and IT solutions empower businesses with intelligent automation, seamless connectivity, and data-driven decision-making tools tailored for the digital era.
                     </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a> --}}
-                  </div><!-- /.service__body -->
-                </div><!-- /.service-item -->
-                <!-- service item #5 -->
-                <div class="service-item">
-                  <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/hospitaly.jpg') }}" class="img-modular" alt="service" loading="lazy">
-                  </div><!-- /.service__img -->
-                  <div class="service__body">
-                    <h4 class="service__title">Hospitality and Leisure Units</h4>
-                    <p class="service__desc">
-                        From hotels to recreational facilities, our hospitality solutions offer aesthetically pleasing and functional spaces that enhance guest experiences.
-                    </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
-                      <span>Read More</span>
-                      <i class="icon-arrow-right"></i>
-                    </a> --}}
-                  </div><!-- /.service__body -->
-                </div><!-- /.service-item -->
-                <!-- service item #6 -->
-                <div class="service-item">
-                  <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/remote.jpg') }}" class="img-modular" alt="service" loading="lazy">
-                  </div><!-- /.service__img -->
-                  <div class="service__body">
-                    <h4 class="service__title">Remote and Offsite Solutions</h4>
-                    <p class="service__desc">
-                        Ideal for remote locations, our offsite packages provide all-in-one modular units designed for mining, oil & gas, and other industries operating in challenging environments.
-                    </p>
-                    {{-- <a href="{{ route('user.service.detail') }}" class="btn btn__secondary btn__outlined btn__custom">
+                    {{-- <a href="{{ route('user.service.precision-digital-and-it-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
                       <span>Read More</span>
                       <i class="icon-arrow-right"></i>
                     </a> --}}

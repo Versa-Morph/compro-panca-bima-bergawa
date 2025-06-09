@@ -98,41 +98,29 @@ Route::name('user.')->middleware(['web'])->group(function () {
             return view('user.service.index');
         })->name('service');
 
-        Route::get('/detail', function() {
-            return view('user.service.detail');
-        })->name('service.detail');
+        Route::get('/heavy-equipment-and-industrial-solutions', function() {
+            return view('user.service.heavy-equipment-and-industrial-solutions', ['service' => 'Heavy Equipment & Industrial Solutions']);
+        })->name('service.heavy-equipment-and-industrial-solutions');
 
-        Route::get('/modular-construction', function() {
-            return view('user.service.modular-construction-solutions', ['service' => 'Modular Construction Solutions']);
-        })->name('service.modular-construction');
+        Route::get('/advanced-energy-and-electrical-systems', function() {
+            return view('user.service.advanced-energy-and-electrical-systems', ['service' => 'Advanced Energy & Electrical Systems']);
+        })->name('service.advanced-energy-and-electrical-systems');
 
-        Route::get('/project-design', function() {
-            return view('user.service.project-design-and-planning', ['service' => 'Project Design & Planning']);
-        })->name('service.project-design');
+        Route::get('/smart-mobility-and-automotive-parts', function() {
+            return view('user.service.smart-mobility-and-automotive-parts', ['service' => 'Smart Mobility & Automotive Parts']);
+        })->name('service.smart-mobility-and-automotive-parts');
 
-        Route::get('/eco-friendly-building', function() {
-            return view('user.service.eco-friendly-building', ['service' => 'Eco-Friendly & Sustainable Building Solutions']);
-        })->name('service.eco-friendly-building');
+        Route::get('/instrumentation-and-measurement-solutions', function() {
+            return view('user.service.instrumentation-and-measurement-solutions', ['service' => 'Instrumentation & Measurement Solutions']);
+        })->name('service.instrumentation-and-measurement-solutions');
 
-        Route::get('/custom-modular-manufacturing', function() {
-            return view('user.service.custom-modular-manufacturing', ['service' => 'Custom Modular Manufacturing']);
-        })->name('service.custom-modular-manufacturing');
+        Route::get('/sustainable-building-material-modular-and-infrastructure', function() {
+            return view('user.service.sustainable-building-material-modular-and-infrastructure', ['service' => 'Sustainable Building Material, Modular & Infrastructure']);
+        })->name('service.sustainable-building-material-modular-and-infrastructure');
 
-        Route::get('/supervise-installation-and-assembly', function() {
-            return view('user.service.supervise-installation-and-assembly', ['service' => 'Supervise Installation & Assembly']);
-        })->name('service.supervise-installation-and-assembly');
-
-        Route::get('/turnkey-project-management', function() {
-            return view('user.service.turnkey-project-management', ['service' => 'Turnkey Project Management']);
-        })->name('service.turnkey-project-management');
-
-        Route::get('/supply-chain-sourcing', function() {
-            return view('user.service.supply-chain-sourcing', ['service' => 'Supply Chain & Material Sourcing']);
-        })->name('service.supply-chain-sourcing');
-
-        Route::get('/consultation-support', function() {
-            return view('user.service.consultation-support', ['service' => 'Consultation & Technical Support']);
-        })->name('service.consultation-support');
+        Route::get('/precision-digital-and-it-solutions', function() {
+            return view('user.service.precision-digital-and-it-solutions', ['service' => 'Precision Digital & IT Solutions']);
+        })->name('service.precision-digital-and-it-solutions');
     });
 
     Route::get('/projects', function() {
