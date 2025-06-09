@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="{{ asset('assets/images/logo-pbb_FavIcon.png') }}">
 <link href="{{ asset('assets/images/logo-pbb_FavIcon.png') }}" rel="icon">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,600,700%7cRoboto:400,500,700&display=swap">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="{{ asset('assets/css/libraries.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <style>
