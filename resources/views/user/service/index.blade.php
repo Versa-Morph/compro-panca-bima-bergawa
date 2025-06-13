@@ -127,7 +127,7 @@
                 <div class="service__body">
                   <h4 class="service__title">Sustainable Building Material, Modular & Infrastructure</h4>
                   <p class="service__desc">Eco-friendly materials and modular systems built for fast, efficient, and sustainable development.</p>
-                  <a href="{{ route('user.service.heavy-equipment-and-industrial-solutions') }}" class="btn btn__secondary btn__outlined btn__custom">
+                  <a href="{{ route('user.service.sustainable-building-material-modular-and-infrastructure') }}" class="btn btn__secondary btn__outlined btn__custom">
                     <span>Read More</span>
                     <i class="icon-arrow-right"></i>
                   </a>

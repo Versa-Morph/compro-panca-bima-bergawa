@@ -5,7 +5,7 @@
        page title
     =========================== -->
     <section class="page-title page-title-layout2 bg-overlay bg-overlay-2 bg-parallax">
-        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="background"></div>
+        <div class="bg-img"><img src="{{ asset('assets/images/pbb-img/modular-solution/module-3.jpg') }}" alt="background"></div>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
