@@ -282,7 +282,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/modular-solution/module-1.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Heavy Equipment & Industrial Solutions</h4>
@@ -298,7 +298,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/modular-solution/module-2.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Advanced Energy & Electrical Systems</h4>
@@ -314,7 +314,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/modular-solution/module-3.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Smart Mobility & Automotive Parts</h4>
@@ -330,7 +330,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/modular-solution/module-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Instrumentation & Measurement Solutions</h4>
@@ -346,7 +346,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/modular-solution/module-5.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Sustainable Building Material, Modular & Infrastructure</h4>
@@ -362,7 +362,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-item">
                 <div class="service__img">
-                  <img src="{{ asset('assets/images/pbb-img/service/modular-constraction-solution-4.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
+                  <img src="{{ asset('assets/images/pbb-img/modular-solution/module-6.jpg') }}" alt="service" loading="lazy" style="max-height: 32.8vh !important; min-width: 100% !important;">
                 </div><!-- /.service__img -->
                 <div class="service__body">
                   <h4 class="service__title">Precision Digital & IT Solutions</h4>

@@ -75,7 +75,7 @@
                         <a href="{{ route('user.home') }}" class="nav__item-link {{ request()->routeIs('user.home') ? 'active' : '' }}">Home</a>
                     </li>
                     <li class="nav__item has-dropdown">
-                        <a href="{{ route('user.about-us') }}" class="nav__item-link {{ request()->routeIs(['user.about-us', 'user.team', 'user.awards', 'user.faqs', 'user.gallery']) ? 'active' : '' }}">Company</a>
+                        <a href="#!" class="nav__item-link {{ request()->routeIs(['user.about-us', 'user.team', 'user.awards', 'user.faqs', 'user.gallery']) ? 'active' : '' }}">Company</a>
                         <button class="dropdown-toggle" data-toggle="dropdown"></button>
 
                         <ul class="dropdown-menu">

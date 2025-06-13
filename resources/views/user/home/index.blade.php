@@ -2,13 +2,13 @@
 @push('style')
 <style>
 .img-modular {
-    height: 180px; /* Sesuaikan tinggi sesuai kebutuhan */
+    height: 150px; /* Sesuaikan tinggi sesuai kebutuhan */
     width: 100%; /* Memastikan lebar menyesuaikan secara proporsional */
     object-fit: cover; /* Memastikan gambar tetap bagus tanpa distorsi */
     display: block; /* Menghindari ada ruang kosong di bawah gambar */
 }
 .service__body {
-    height: 320px !important;
+    height: 370px !important;
 }
 </style>
 @endpush
@@ -19,7 +19,7 @@
     <section class="slider">
         <div class="slick-carousel carousel-arrows-light carousel-dots-light m-slides-0" data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
           <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-0.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/header-1.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -39,7 +39,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-4.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/header-2.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -59,7 +59,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-1.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/header-3.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -79,7 +79,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay">
-            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-2.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/header-4.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -99,7 +99,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay">
-            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-3.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/header-5.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -119,7 +119,7 @@
             </div><!-- /.container -->
           </div><!-- /.slide-item -->
           <div class="slide-item align-v-h bg-overlay">
-            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/banner-3.jpg') }}" alt="slide img"></div>
+            <div class="bg-img"><img src="{{ asset('assets/images/banner-hero/header-6.jpg') }}" alt="slide img"></div>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
@@ -253,7 +253,7 @@
                 <!-- service item #1 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/advance-pump.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/module-1.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Heavy Equipment & Industrial Solutions</h4>
@@ -268,7 +268,7 @@
                 </div><!-- /.service-item -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/Heavy-Equipment-Spare-Parts.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/module-2.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Advanced Energy & Electrical Systems</h4>
@@ -283,7 +283,7 @@
                 </div><!-- /.service-item -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/rapid-build.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/module-3.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Smart Mobility & Automotive Parts</h4>
@@ -299,7 +299,7 @@
                 <!-- service item #2 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/residensial.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/module-4.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Instrumentation & Measurement Solutions</h4>
@@ -315,7 +315,7 @@
                 <!-- service item #3 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/industrial.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/module-5.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Sustainable Building Material, Modular & Infrastructure</h4>
@@ -331,7 +331,7 @@
                 <!-- service item #4 -->
                 <div class="service-item">
                   <div class="service__img">
-                    <img src="{{ asset('assets/images/pbb-img/modular-solution/education&healthcare.jpg') }}" class="img-modular" alt="service" loading="lazy">
+                    <img src="{{ asset('assets/images/pbb-img/modular-solution/module-6.jpg') }}" class="img-modular" alt="service" loading="lazy">
                   </div><!-- /.service__img -->
                   <div class="service__body">
                     <h4 class="service__title">Precision Digital & IT Solutions</h4>
